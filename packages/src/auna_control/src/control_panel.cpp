@@ -69,7 +69,7 @@ void ControlPanel::setupUI()
   ns_group->setLayout(ns_layout);
   layout_->addWidget(ns_group);
 
-  namespace_input_ = new QLineEdit("");
+  namespace_input_ = new QLineEdit("robot1");
   ns_layout->addWidget(namespace_input_);
 
   emergency_stop_button_ = new QPushButton("Emergency STOP");
