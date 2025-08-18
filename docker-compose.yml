@@ -649,6 +649,28 @@ services:
       ]
     profiles: ["tracing"]
 
+
+  tracingana:
+      <<: *package-base
+      build:
+        <<: *build-package-base
+        args:
+          - PIP_BREAK_SYSTEM_PACKAGES=${PIP_BREAK_SYSTEM_PACKAGES}
+          - PACKAGE_NAMES=${TRACING_PACKAGES}
+      image: tracing:latest
+      volumes:
+        - ./traces:/home/ubuntu/workspace/traces
+      pull_policy: build
+      container_name: tracingana
+      #stdin_open: true # docker run -i
+      #tty: true # docker run -t
+      #command: ["/home/ubuntu/workspace/traces/trace.sh"]
+      #command: [ "/bin/bash", "-lc", "sudo chown -R ubuntu:ubuntu /home/ubuntu/workspace/traces && source /opt/ros/humble/setup.bash && source /home/ubuntu/tracing/install/setup.bash && ros2 run tracetools status && printf '' | ros2 trace" ]
+      command: [ "/bin/bash", "-c", "cd packages && colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON && cd .. && sudo chown -R ubuntu:ubuntu /home/ubuntu/workspace/traces && source /opt/ros/humble/setup.bash && source /home/ubuntu/tracing/install/setup.bash && pip install --upgrade bottleneck && pip install --upgrade numexpr && /bin/bash" ]
+      #&& tail -f /dev/null"] #is working, but manually
+      #&& lttng-sessiond --daemonize && lttng create trace --output=/home/ubuntu/workspace/traces && lttng enable-event --userspace ros2:* && lttng start && ros2 run tracetools status && ros2 trace" ]
+      profiles: [ "tracingana" ]
+
   #==============================================================================
   # DEMO SERVICES
   #==============================================================================
