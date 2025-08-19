@@ -394,6 +394,8 @@ services:
         - PIP_BREAK_SYSTEM_PACKAGES=${PIP_BREAK_SYSTEM_PACKAGES}
         - PACKAGE_NAMES=${NAV2_PACKAGES}
     image: nav2_stack:latest
+    environment:
+      UHLC_MAX_DELTA_MS: 31557600000
     pull_policy: build
     container_name: nav2_stack
     command:
@@ -670,6 +672,26 @@ services:
       #&& tail -f /dev/null"] #is working, but manually
       #&& lttng-sessiond --daemonize && lttng create trace --output=/home/ubuntu/workspace/traces && lttng enable-event --userspace ros2:* && lttng start && ros2 run tracetools status && ros2 trace" ]
       profiles: [ "tracingana" ]
+
+  sim_scenario_1_all_in_one:
+    <<: *gui-base
+    build:
+      <<: *build-package-base
+      args:
+        - PIP_BREAK_SYSTEM_PACKAGES=${PIP_BREAK_SYSTEM_PACKAGES}
+        - PACKAGE_NAMES=${CACC_PACKAGES} ${COMM_PACKAGES} ${CONTROL_PANEL_PACKAGES} ${EKF_PACKAGES} ${GAZEBO_PACKAGES} ${GROUND_TRUTH_PACKAGES} ${NAV2_PACKAGES} ${TF_PACKAGES} ${WALLFOLLOWING_PACKAGES} ${WAYPOINT_PUBLISHER_PACKAGES} ${ZENOHD_PACKAGES} ${TRACING_PACKAGES}
+    image: sim_scenario_1_all_in_one:latest
+    pull_policy: build
+    container_name: sim_scenario_1_all_in_one
+    command: ["/bin/bash"]
+    environment:
+      - COMMUNICATION_TYPE=${COMMUNICATION_TYPE}
+      - PIP_BREAK_SYSTEM_PACKAGES=${PIP_BREAK_SYSTEM_PACKAGES}
+      - MAP_NAME=${MAP_NAME}
+      - UHLC_MAX_DELTA_MS=31557600000
+    profiles: [ "sim_scenario_1_all_in_one" ]
+    volumes:
+      - ./traces:/home/ubuntu/workspace/traces
 
   #==============================================================================
   # DEMO SERVICES
