@@ -50,7 +50,7 @@ RUN sudo chown -R ubuntu:ubuntu /home/ubuntu/workspace
 # Clone and build ros2_tracing
 RUN mkdir -p /home/ubuntu/tracing/src \
     && cd /home/ubuntu/tracing/src \
-    && git clone https://gitlab.com/ros-tracing/ros2_tracing.git -m humble \
+    && git clone https://gitlab.com/ros-tracing/ros2_tracing.git -b humble \
     && cd .. \
     && bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash && colcon build --packages-up-to tracetools ros2trace" \
     && sudo usermod -aG tracing ubuntu
