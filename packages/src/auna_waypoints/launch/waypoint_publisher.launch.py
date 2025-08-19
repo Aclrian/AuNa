@@ -22,7 +22,7 @@ def include_launch_description(context: LaunchContext):
     pkg_dir = get_package_share_directory('auna_waypoints')
 
     # Get MAP_NAME from environment variable, default to 'default' if not set
-    map_name = os.environ.get('MAP_NAME', 'default')
+    map_name = os.environ.get('MAP_NAME', 'racetrack_decorated')
 
     # Config files
     waypoints = os.path.join(pkg_dir, 'config', map_name, 'waypoints.csv')
