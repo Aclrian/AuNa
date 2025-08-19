@@ -53,7 +53,8 @@ RUN mkdir -p /home/ubuntu/tracing/src \
     && git clone https://gitlab.com/ros-tracing/ros2_tracing.git -b humble \
     && cd .. \
     && bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash && colcon build --packages-up-to tracetools ros2trace" \
-    && sudo usermod -aG tracing ubuntu
+    && sudo usermod -aG tracing ubuntu \
+    && sudo newgrp tracing
 
 # Enhanced bash configuration with environment variable support
 RUN echo 'PS1="\[\033[32m\]\u\[\033[0m\] ➜ \[\033[34m\]\w\[\033[31m\]\$(__git_ps1 \" (%s)\")\[\033[0m\] $ "' >> ~/.bashrc \
