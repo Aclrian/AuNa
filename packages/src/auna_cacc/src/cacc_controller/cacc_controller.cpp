@@ -411,7 +411,7 @@ void CaccController::pose_callback(const geometry_msgs::msg::PoseStamped::Shared
 
 void CaccController::update_waypoint_following()
 {
-  int closest_pose_waypoint_index;
+  int closest_pose_waypoint_index = -1;
   {
     double closest_distance_squared = std::numeric_limits<double>::max();
     int num_waypoints = waypoints_x_.size();
