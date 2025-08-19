@@ -59,7 +59,8 @@ RUN /bin/bash -c "cd /home/ubuntu \
     && source /opt/ros/humble/setup.bash \
     && colcon build --packages-up-to tracetools ros2trace"
 
-RUN sudo usermod -aG tracing ubuntu
+RUN sudo usermod -aG tracing ubuntu \
+    && sudo newgrp tracing
 
 # Colored terminal
 RUN echo 'PS1="\[\033[32m\]\u\[\033[0m\] ➜ \[\033[34m\]\w\[\033[31m\]\$(__git_ps1 \" (%s)\")\[\033[0m\] $ "' >> ~/.bashrc
