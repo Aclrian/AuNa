@@ -54,7 +54,7 @@ RUN sudo chown -R ubuntu:ubuntu /home/ubuntu/workspace
 RUN /bin/bash -c "cd /home/ubuntu \
     && mkdir -p /home/ubuntu/tracing/src \
     && cd /home/ubuntu/tracing/src \
-    && git clone https://gitlab.com/ros-tracing/ros2_tracing.git -m humble \
+    && git clone https://gitlab.com/ros-tracing/ros2_tracing.git -b humble \
     && cd .. \
     && source /opt/ros/humble/setup.bash \
     && colcon build --packages-up-to tracetools ros2trace"
