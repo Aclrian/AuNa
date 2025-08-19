@@ -62,6 +62,8 @@ RUN /bin/bash -c "cd /home/ubuntu \
 RUN sudo usermod -aG tracing ubuntu \
     && sudo newgrp tracing
 
+ENV PATH="/home/ubuntu/.local/bin:${PATH}"
+
 # Colored terminal
 RUN echo 'PS1="\[\033[32m\]\u\[\033[0m\] ➜ \[\033[34m\]\w\[\033[31m\]\$(__git_ps1 \" (%s)\")\[\033[0m\] $ "' >> ~/.bashrc
 
