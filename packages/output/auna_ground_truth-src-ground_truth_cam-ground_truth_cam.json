@@ -1,0 +1,1870 @@
+{
+    "accesses": {
+        "arg": [
+            {
+                "context": {
+                    "access_type": "arg",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:60"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:48",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:54"
+                        }
+                    }
+                ]
+            }
+        ],
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 15405776,
+                        "is_lambda": true,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:62",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:92"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:89"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14878540,
+                        "name": "service_timer_callback",
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:65"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15467073,
+                        "name": "wait_for_service",
+                        "qualified_name": "rclcpp::ClientBase::wait_for_service",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:25"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:36:89"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15543239,
+                        "name": "async_send_request",
+                        "qualified_name": "rclcpp::Client<gazebo_msgs::srv::GetEntityState>::async_send_request",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:31"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15598307,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:15"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:92>"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 975280,
+                        "name": "c_str",
+                        "qualified_name": "std::basic_string<char>::c_str",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:86>"
+                        }
+                    },
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397602,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthCam::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14953036,
+                        "name": "modelClient_",
+                        "qualified_name": "GroundTruthCam::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397634,
+                        "name": "service_timer_",
+                        "qualified_name": "GroundTruthCam::service_timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:31",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:31"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397680,
+                        "name": "publish_milliseconds_",
+                        "qualified_name": "GroundTruthCam::publish_milliseconds_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:31",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:31"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 15405776,
+                        "is_lambda": true,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:62",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:92"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14878540,
+                        "name": "service_timer_callback",
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:66"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:11"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:11"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:25"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15467073,
+                        "name": "wait_for_service",
+                        "qualified_name": "rclcpp::ClientBase::wait_for_service",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:25"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14953036,
+                        "name": "modelClient_",
+                        "qualified_name": "GroundTruthCam::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:27:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:31"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15543239,
+                        "name": "async_send_request",
+                        "qualified_name": "rclcpp::Client<gazebo_msgs::srv::GetEntityState>::async_send_request",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:31"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14953036,
+                        "name": "modelClient_",
+                        "qualified_name": "GroundTruthCam::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:35:17"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:86>"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 975280,
+                        "name": "c_str",
+                        "qualified_name": "std::basic_string<char>::c_str",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:86>"
+                        }
+                    },
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:5 <Spelling=/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:44:80>"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:21",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:27"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:21",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:27"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:79:18",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:79:18"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397693,
+                        "name": "scale_factor_",
+                        "qualified_name": "GroundTruthCam::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:79:18",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:79:18"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:48",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:54"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:48",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:84:54"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:89:12",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:89:12"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397693,
+                        "name": "scale_factor_",
+                        "qualified_name": "GroundTruthCam::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:89:12",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:89:12"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:90:12",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:90:12"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397693,
+                        "name": "scale_factor_",
+                        "qualified_name": "GroundTruthCam::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:90:12",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:90:12"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:15"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15598307,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:15"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397602,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthCam::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397602,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthCam::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:92:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "read": [
+            {
+                "context": {
+                    "access_type": "read",
+                    "method": {
+                        "id": 14878540,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:26:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "read",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:27"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:21",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:68:27"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:89"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397602,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthCam::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:91"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14953036,
+                        "name": "modelClient_",
+                        "qualified_name": "GroundTruthCam::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:10:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:12:93"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397634,
+                        "name": "service_timer_",
+                        "qualified_name": "GroundTruthCam::service_timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:11:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:15:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14878510,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397654,
+                        "name": "name_",
+                        "qualified_name": "GroundTruthCam::name_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:17:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14932377,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthCam::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                        }
+                    },
+                    "node": {
+                        "id": 14878417,
+                        "qualified_name": "GroundTruthCam",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:79:18"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 15397667,
+                        "name": "speed_",
+                        "qualified_name": "GroundTruthCam::speed_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:78:9"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 14953036,
+                    "qualified_name": "GroundTruthCam::modelClient_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:25:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:25:63"
+                    }
+                },
+                {
+                    "id": 15363742,
+                    "qualified_name": "GroundTruthCam::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:26:66"
+                    }
+                },
+                {
+                    "id": 15397602,
+                    "qualified_name": "GroundTruthCam::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:27:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:27:61"
+                    }
+                },
+                {
+                    "id": 15397634,
+                    "qualified_name": "GroundTruthCam::service_timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:28:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:28:32"
+                    }
+                },
+                {
+                    "id": 15397654,
+                    "qualified_name": "GroundTruthCam::name_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:30:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:30:15"
+                    }
+                },
+                {
+                    "id": 15397667,
+                    "qualified_name": "GroundTruthCam::speed_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:31:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:31:10"
+                    }
+                },
+                {
+                    "id": 15397680,
+                    "qualified_name": "GroundTruthCam::publish_milliseconds_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:32:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:32:31"
+                    }
+                },
+                {
+                    "id": 15397693,
+                    "qualified_name": "GroundTruthCam::scale_factor_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:33:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:33:26"
+                    }
+                }
+            ],
+            "id": 14878417,
+            "methods": [
+                {
+                    "id": 14878510,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                    }
+                },
+                {
+                    "id": 14878540,
+                    "qualified_name": "GroundTruthCam::service_timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                    }
+                },
+                {
+                    "id": 14932377,
+                    "qualified_name": "GroundTruthCam::model_srv_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_future<class std::shared_ptr<struct gazebo_msgs::srv::GetEntityState_Response_<class std::allocator<void> > > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                    }
+                },
+                {
+                    "id": 15397709,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthCam &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397765,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthCam &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397821,
+                    "qualified_name": "GroundTruthCam::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthCam &"
+                        ],
+                        "return_type": "class GroundTruthCam &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397869,
+                    "qualified_name": "GroundTruthCam::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthCam &&"
+                        ],
+                        "return_type": "class GroundTruthCam &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397922,
+                    "qualified_name": "GroundTruthCam::~GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                }
+            ],
+            "qualified_name": "GroundTruthCam",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 14953036,
+                    "qualified_name": "GroundTruthCam::modelClient_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:25:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:25:63"
+                    }
+                },
+                {
+                    "id": 15363742,
+                    "qualified_name": "GroundTruthCam::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:26:66"
+                    }
+                },
+                {
+                    "id": 15397602,
+                    "qualified_name": "GroundTruthCam::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:27:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:27:61"
+                    }
+                },
+                {
+                    "id": 15397634,
+                    "qualified_name": "GroundTruthCam::service_timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:28:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:28:32"
+                    }
+                },
+                {
+                    "id": 15397654,
+                    "qualified_name": "GroundTruthCam::name_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:30:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:30:15"
+                    }
+                },
+                {
+                    "id": 15397667,
+                    "qualified_name": "GroundTruthCam::speed_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:31:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:31:10"
+                    }
+                },
+                {
+                    "id": 15397680,
+                    "qualified_name": "GroundTruthCam::publish_milliseconds_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:32:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:32:31"
+                    }
+                },
+                {
+                    "id": 15397693,
+                    "qualified_name": "GroundTruthCam::scale_factor_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:33:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:33:26"
+                    }
+                }
+            ],
+            "id": 14878417,
+            "methods": [
+                {
+                    "id": 14878510,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:18:18"
+                    }
+                },
+                {
+                    "id": 14878540,
+                    "qualified_name": "GroundTruthCam::service_timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:21:31"
+                    }
+                },
+                {
+                    "id": 14932377,
+                    "qualified_name": "GroundTruthCam::model_srv_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_future<class std::shared_ptr<struct gazebo_msgs::srv::GetEntityState_Response_<class std::allocator<void> > > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:22:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:23:80"
+                    }
+                },
+                {
+                    "id": 15397709,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthCam &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397765,
+                    "qualified_name": "GroundTruthCam::GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthCam &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397821,
+                    "qualified_name": "GroundTruthCam::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthCam &"
+                        ],
+                        "return_type": "class GroundTruthCam &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397869,
+                    "qualified_name": "GroundTruthCam::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthCam &&"
+                        ],
+                        "return_type": "class GroundTruthCam &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                },
+                {
+                    "id": 15397922,
+                    "qualified_name": "GroundTruthCam::~GroundTruthCam",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:7"
+                    }
+                }
+            ],
+            "qualified_name": "GroundTruthCam",
+            "ros_name": "ground_truth_cam_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:15:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_cam.hpp:34:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 15397602,
+                "name": "publisher_",
+                "qualified_name": "GroundTruthCam::publisher_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:3"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:89"
+            },
+            "topic": "ground_truth_cam",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp:9:89"
+            },
+            "type": "publisher"
+        }
+    ]
+}

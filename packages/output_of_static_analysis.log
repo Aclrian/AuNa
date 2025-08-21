@@ -1,0 +1,79 @@
+Script started on 2025-08-21 11:13:07+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="170" LINES="30"]
+6/20 auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp
+1/20 physical/ros-g29-force-feedback/src/g29_force_feedback.cpp
+4/20 auna_ground_truth/src/ground_truth_transform/ground_truth_transform.cpp
+3/20 auna_waypoints/src/waypoint_publisher/waypoint_publisher.cpp
+5/20 auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp
+2/20 auna_template/src/sample_node/sample_node.cpp
+7/20 auna_omnet/src/omnet/omnet_cam_filter/omnet_cam_filter.cpp
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_ground_truth-src-ground_truth_cam-ground_truth_cam.json -p ./build ./src/auna_ground_truth/src/ground_truth_cam/ground_truth_cam.cpp >/dev/null
+8/20 auna_omnet/src/omnet/omnet_transmitter/omnet_transmitter.cpp
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/physical-ros-g29-force-feedback-src-g29_force_feedback.json -p ./build ./src/physical/ros-g29-force-feedback/src/g29_force_feedback.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_ground_truth-src-ground_truth_pose_publisher-ground_truth_pose_publisher.json -p ./build ./src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_waypoints-src-waypoint_publisher-waypoint_publisher.json -p ./build ./src/auna_waypoints/src/waypoint_publisher/waypoint_publisher.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_ground_truth-src-ground_truth_transform-ground_truth_transform.json -p ./build ./src/auna_ground_truth/src/ground_truth_transform/ground_truth_transform.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_omnet-src-omnet-omnet_cam_filter-omnet_cam_filter.json -p ./build ./src/auna_omnet/src/omnet/omnet_cam_filter/omnet_cam_filter.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_template-src-sample_node-sample_node.json -p ./build ./src/auna_template/src/sample_node/sample_node.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_omnet-src-omnet-omnet_transmitter-omnet_transmitter.json -p ./build ./src/auna_omnet/src/omnet/omnet_transmitter/omnet_transmitter.cpp >/dev/null
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;33m[WARN ][MemberExprHandler.cpp] MemberExpr not inside a CXXMethod.
+  </home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:8:83>[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;33m[WARN ][MemberExprHandler.cpp] MemberExpr not inside a CXXMethod.
+  </home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_transform/ground_truth_transform.cpp:7:13>[0m
+[0;33m[WARN ][MemberExprHandler.cpp] MemberExpr not inside a CXXMethod.
+  </home/ubuntu/workspace/packages/src/auna_waypoints/src/waypoint_publisher/waypoint_publisher.cpp:4:75>[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+9/20 auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp
+11/20 auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp
+10/20 auna_f110/src/vesc_start/vesc_start.cpp
+12/20 auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp
+14/20 auna_cacc/src/cacc_controller/cacc_controller.cpp
+13/20 auna_tf/src/global_tf/global_tf.cpp
+15/20 auna_control/src/control_panel.cpp
+16/20 auna_control/src/cmd_vel_multiplexer_node.cpp
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_gazebo-src-robot_name_publisher-robot_name_publisher.json -p ./build ./src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_tf-src-global_tf-global_tf.json -p ./build ./src/auna_tf/src/global_tf/global_tf.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_omnet-src-omnet-omnet_receiver-omnet_receiver.json -p ./build ./src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_f110-src-vesc_start-vesc_start.json -p ./build ./src/auna_f110/src/vesc_start/vesc_start.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_tf-src-localization_pose_publisher-localization_pose_publisher.json -p ./build ./src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_control-src-control_panel.json -p ./build ./src/auna_control/src/control_panel.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_cacc-src-cacc_controller-cacc_controller.json -p ./build ./src/auna_cacc/src/cacc_controller/cacc_controller.cpp >/dev/null
+./dep-check --extra-arg=-w --extra-arg=-std=c++17 -o /home/ubuntu/workspace/packages/output/auna_control-src-cmd_vel_multiplexer_node.json -p ./build ./src/auna_control/src/cmd_vel_multiplexer_node.cpp >/dev/null
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;33m[WARN ][MemberExprHandler.cpp] MemberExpr not inside a CXXMethod.
+  </home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:8:83>[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][CallbackRegHandler.cpp] Call to create_subscription has no topic
+</home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:35, line:54:12>[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+[0;31m[ERROR][MemberExprHandler.cpp] Match on MemberExpr has no MemberExpr bound to 'ref'[0m
+Done.
+
+Script done on 2025-08-21 11:13:44+00:00 [COMMAND_EXIT_CODE="0"]

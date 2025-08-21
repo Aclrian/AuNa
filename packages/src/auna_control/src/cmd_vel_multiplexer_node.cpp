@@ -182,17 +182,17 @@ void CmdVelMultiplexerNode::setupSubscribers()
   for (const auto & source : input_sources_) {
     if (source.type == "TwistStamped") {
       cmd_vel_subscribers_[source.name] = this->create_subscription<TwistStamped>(
-        source.topic, 10, [this, source_name = source.name](const TwistStamped::SharedPtr msg) {
+        "cmd_vel_twist_stamped", 10, [this, source_name = source.name](const TwistStamped::SharedPtr msg) {
           this->twist_callback(msg, source_name);
         });
     } else if (source.type == "Twist") {
       cmd_vel_subscribers_[source.name] = this->create_subscription<Twist>(
-        source.topic, 10, [this, source_name = source.name](const Twist::SharedPtr msg) {
+        "cmd_vel_twist", 10, [this, source_name = source.name](const Twist::SharedPtr msg) {
           this->twist_regular_callback(msg, source_name);
         });
     } else if (source.type == "AckermannDriveStamped") {
       cmd_vel_subscribers_[source.name] = this->create_subscription<AckermannDriveStamped>(
-        source.topic, 10,
+        "cmd_vel/wallfollowing", 10,
         [this, source_name = source.name](const AckermannDriveStamped::SharedPtr msg) {
           this->ackermann_callback(msg, source_name);
         });

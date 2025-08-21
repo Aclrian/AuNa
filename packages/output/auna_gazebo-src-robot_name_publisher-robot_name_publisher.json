@@ -1,0 +1,706 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13570578,
+                        "is_lambda": true,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:62",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:93"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:90"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13125011,
+                        "name": "model_state_callback",
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13125011,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13611275,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<auna_msgs::msg::StringArray_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:15"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13124926,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13535716,
+                        "name": "subscription_",
+                        "qualified_name": "RobotNamePublisher::subscription_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13570578,
+                        "is_lambda": true,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:62",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:93"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13125011,
+                        "name": "model_state_callback",
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:66"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13124926,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13569566,
+                        "name": "publisher_",
+                        "qualified_name": "RobotNamePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13125011,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:15"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13611275,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<auna_msgs::msg::StringArray_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:15"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13125011,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13569566,
+                        "name": "publisher_",
+                        "qualified_name": "RobotNamePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 13125011,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::model_state_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13569566,
+                        "name": "publisher_",
+                        "qualified_name": "RobotNamePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:19:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13124926,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:94"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13535716,
+                        "name": "subscription_",
+                        "qualified_name": "RobotNamePublisher::subscription_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13124926,
+                        "is_lambda": false,
+                        "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                        }
+                    },
+                    "node": {
+                        "id": 13124834,
+                        "qualified_name": "RobotNamePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:85"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13569566,
+                        "name": "publisher_",
+                        "qualified_name": "RobotNamePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 13535716,
+                    "qualified_name": "RobotNamePublisher::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:14:66"
+                    }
+                },
+                {
+                    "id": 13569566,
+                    "qualified_name": "RobotNamePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:15:61"
+                    }
+                }
+            ],
+            "id": 13124834,
+            "methods": [
+                {
+                    "id": 13124926,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                    }
+                },
+                {
+                    "id": 13125011,
+                    "qualified_name": "RobotNamePublisher::model_state_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct gazebo_msgs::msg::ModelStates_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                    }
+                },
+                {
+                    "id": 13569581,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class RobotNamePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569637,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class RobotNamePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569693,
+                    "qualified_name": "RobotNamePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class RobotNamePublisher &"
+                        ],
+                        "return_type": "class RobotNamePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569741,
+                    "qualified_name": "RobotNamePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class RobotNamePublisher &&"
+                        ],
+                        "return_type": "class RobotNamePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569794,
+                    "qualified_name": "RobotNamePublisher::~RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                }
+            ],
+            "qualified_name": "RobotNamePublisher",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 13535716,
+                    "qualified_name": "RobotNamePublisher::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:14:66"
+                    }
+                },
+                {
+                    "id": 13569566,
+                    "qualified_name": "RobotNamePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:15:61"
+                    }
+                }
+            ],
+            "id": 13124834,
+            "methods": [
+                {
+                    "id": 13124926,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:9:22"
+                    }
+                },
+                {
+                    "id": 13125011,
+                    "qualified_name": "RobotNamePublisher::model_state_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct gazebo_msgs::msg::ModelStates_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:12:79"
+                    }
+                },
+                {
+                    "id": 13569581,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class RobotNamePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569637,
+                    "qualified_name": "RobotNamePublisher::RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class RobotNamePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569693,
+                    "qualified_name": "RobotNamePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class RobotNamePublisher &"
+                        ],
+                        "return_type": "class RobotNamePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569741,
+                    "qualified_name": "RobotNamePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class RobotNamePublisher &&"
+                        ],
+                        "return_type": "class RobotNamePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 13569794,
+                    "qualified_name": "RobotNamePublisher::~RobotNamePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:7"
+                    }
+                }
+            ],
+            "qualified_name": "RobotNamePublisher",
+            "ros_name": "robot_name_publisher_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:6:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/include/auna_gazebo/robot_name_publisher.hpp:16:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 13569566,
+                "name": "publisher_",
+                "qualified_name": "RobotNamePublisher::publisher_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:3"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:85"
+            },
+            "topic": "/robot_names",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:8:85"
+            },
+            "type": "publisher"
+        }
+    ],
+    "subscriptions": [
+        {
+            "callback": {
+                "id": 13570578,
+                "qualified_name": "RobotNamePublisher::RobotNamePublisher()::(anonymous class)::operator()",
+                "signature": {
+                    "parameter_types": [
+                        "const class std::shared_ptr<struct gazebo_msgs::msg::ModelStates_<class std::allocator<void> > >"
+                    ],
+                    "return_type": "void"
+                },
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:62",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:93"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:19",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:94"
+            },
+            "topic": "/model_states",
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:5:19",
+                "end": "/home/ubuntu/workspace/packages/src/auna_gazebo/src/robot_name_publisher/robot_name_publisher.cpp:7:94"
+            },
+            "type": "subscription"
+        }
+    ]
+}

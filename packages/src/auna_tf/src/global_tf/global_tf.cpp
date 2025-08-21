@@ -56,7 +56,7 @@ void GlobalTF::model_srv_callback(
         auto static_qos =
           rclcpp::QoS(rclcpp::KeepLast(10)).transient_local();  // Increased QoS depth
         tf_subscribers_.push_back(this->create_subscription<tf2_msgs::msg::TFMessage>(
-          "/" + model_name + "/tf_static", static_qos,
+          "/robot1/tf_static", static_qos,
           [this, robot_name = model_name](const tf2_msgs::msg::TFMessage::SharedPtr msg) {
             tf_callback(msg, robot_name, true);  // Static transform
           }));

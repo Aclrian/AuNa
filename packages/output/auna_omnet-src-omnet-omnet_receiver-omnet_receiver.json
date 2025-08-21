@@ -1,0 +1,1073 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14675114,
+                        "is_lambda": true,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:73",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:96"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:93"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14237925,
+                        "name": "cam_callback",
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:35"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14709381,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:35"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14709381,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:19"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674074,
+                        "name": "omnet_subscriber_",
+                        "qualified_name": "OmnetReceiver::omnet_subscriber_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14675114,
+                        "is_lambda": true,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:73",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:96"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14237925,
+                        "name": "cam_callback",
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:77"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:46:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:46:77"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674087,
+                        "name": "scale_factor_",
+                        "qualified_name": "OmnetReceiver::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:46:77",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:46:77"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:49:76",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:49:76"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674087,
+                        "name": "scale_factor_",
+                        "qualified_name": "OmnetReceiver::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:49:76",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:49:76"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:54:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:54:5"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674087,
+                        "name": "scale_factor_",
+                        "qualified_name": "OmnetReceiver::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:54:5",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:54:5"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:97:70",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:97:70"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674087,
+                        "name": "scale_factor_",
+                        "qualified_name": "OmnetReceiver::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:97:70",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:97:70"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:104:15",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:104:15"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674087,
+                        "name": "scale_factor_",
+                        "qualified_name": "OmnetReceiver::scale_factor_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:104:15",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:104:15"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14709381,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14709381,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:35"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:124:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14237925,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::cam_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:35"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:125:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:97"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674074,
+                        "name": "omnet_subscriber_",
+                        "qualified_name": "OmnetReceiver::omnet_subscriber_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "OmnetReceiver::OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "OmnetReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:80"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271782,
+                        "name": "cam_publisher_",
+                        "qualified_name": "OmnetReceiver::cam_publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 14271782,
+                    "qualified_name": "OmnetReceiver::cam_publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:14:61"
+                    }
+                },
+                {
+                    "id": 14674074,
+                    "qualified_name": "OmnetReceiver::omnet_subscriber_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:15:64"
+                    }
+                },
+                {
+                    "id": 14674087,
+                    "qualified_name": "OmnetReceiver::scale_factor_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:16:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:16:26"
+                    }
+                }
+            ],
+            "id": 14237748,
+            "methods": [
+                {
+                    "id": 14237840,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                    }
+                },
+                {
+                    "id": 14237925,
+                    "qualified_name": "OmnetReceiver::cam_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct etsi_its_cam_msgs::msg::CAM_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                    }
+                },
+                {
+                    "id": 14674103,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "const class OmnetReceiver &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674159,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "class OmnetReceiver &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674215,
+                    "qualified_name": "OmnetReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class OmnetReceiver &"
+                        ],
+                        "return_type": "class OmnetReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674263,
+                    "qualified_name": "OmnetReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class OmnetReceiver &&"
+                        ],
+                        "return_type": "class OmnetReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674316,
+                    "qualified_name": "OmnetReceiver::~OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                }
+            ],
+            "qualified_name": "OmnetReceiver",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 14271782,
+                    "qualified_name": "OmnetReceiver::cam_publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:14:61"
+                    }
+                },
+                {
+                    "id": 14674074,
+                    "qualified_name": "OmnetReceiver::omnet_subscriber_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:15:64"
+                    }
+                },
+                {
+                    "id": 14674087,
+                    "qualified_name": "OmnetReceiver::scale_factor_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:16:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:16:26"
+                    }
+                }
+            ],
+            "id": 14237748,
+            "methods": [
+                {
+                    "id": 14237840,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:9:17"
+                    }
+                },
+                {
+                    "id": 14237925,
+                    "qualified_name": "OmnetReceiver::cam_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct etsi_its_cam_msgs::msg::CAM_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:12:69"
+                    }
+                },
+                {
+                    "id": 14674103,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "const class OmnetReceiver &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674159,
+                    "qualified_name": "OmnetReceiver::OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "class OmnetReceiver &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674215,
+                    "qualified_name": "OmnetReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class OmnetReceiver &"
+                        ],
+                        "return_type": "class OmnetReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674263,
+                    "qualified_name": "OmnetReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class OmnetReceiver &&"
+                        ],
+                        "return_type": "class OmnetReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                },
+                {
+                    "id": 14674316,
+                    "qualified_name": "OmnetReceiver::~OmnetReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:7"
+                    }
+                }
+            ],
+            "qualified_name": "OmnetReceiver",
+            "ros_name": "omnet_receiver_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:6:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/include/auna_omnet/omnet_receiver.hpp:17:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 14271782,
+                "name": "cam_publisher_",
+                "qualified_name": "OmnetReceiver::cam_publisher_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:3"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:20",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:80"
+            },
+            "topic": "cam",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:20",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:12:80"
+            },
+            "type": "publisher"
+        }
+    ],
+    "subscriptions": [
+        {
+            "callback": {
+                "id": 14675114,
+                "qualified_name": "OmnetReceiver::OmnetReceiver()::(anonymous class)::operator()",
+                "signature": {
+                    "parameter_types": [
+                        "const class std::shared_ptr<struct etsi_its_cam_msgs::msg::CAM_<class std::allocator<void> > >"
+                    ],
+                    "return_type": "void"
+                },
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:73",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:96"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:23",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:97"
+            },
+            "topic": "cam_in",
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:9:23",
+                "end": "/home/ubuntu/workspace/packages/src/auna_omnet/src/omnet/omnet_receiver/omnet_receiver.cpp:10:97"
+            },
+            "type": "subscription"
+        }
+    ]
+}

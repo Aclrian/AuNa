@@ -1,0 +1,2119 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14173928,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::GlobalTF()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:68",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:95"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13688841,
+                        "name": "service_timer_callback",
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:65"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14237511,
+                        "name": "wait_for_service",
+                        "qualified_name": "rclcpp::ClientBase::wait_for_service",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:25"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:26:83"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14313635,
+                        "name": "async_send_request",
+                        "qualified_name": "rclcpp::Client<gazebo_msgs::srv::GetModelList>::async_send_request",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:31"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:39"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077512,
+                        "name": "begin",
+                        "qualified_name": "std::vector<std::basic_string<char>>::begin",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:33"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:60"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077609,
+                        "name": "end",
+                        "qualified_name": "std::vector<std::basic_string<char>>::end",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:56"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:96"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077609,
+                        "name": "end",
+                        "qualified_name": "std::vector<std::basic_string<char>>::end",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:92"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:43"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4078959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::basic_string<char>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:23"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:54:13"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14158959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage_<std::allocator<void>>, std::allocator<void>, tf2_msgs::msg::TFMessage_<std::allocator<void>>, tf2_msgs::msg::TFMessage_<std::allocator<void>>>>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:25"
+                        }
+                    },
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14377536,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::model_srv_callback(const rclcpp::Client<gazebo_msgs::srv::GetModelList>::SharedFuture)::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:52:88",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:54:11"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:47"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742817,
+                        "name": "tf_callback",
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:13"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14158959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage_<std::allocator<void>>, std::allocator<void>, tf2_msgs::msg::TFMessage_<std::allocator<void>>, tf2_msgs::msg::TFMessage_<std::allocator<void>>>>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:25"
+                        }
+                    },
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14422262,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::model_srv_callback(const rclcpp::Client<gazebo_msgs::srv::GetModelList>::SharedFuture)::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:60:88",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:11"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:46"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742817,
+                        "name": "tf_callback",
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:52"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13076415,
+                        "name": "sendTransform",
+                        "qualified_name": "tf2_ros::StaticTransformBroadcaster::sendTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:30"
+                        }
+                    },
+                    {
+                        "id": 13742888,
+                        "name": "static_tf_broadcaster_",
+                        "qualified_name": "GlobalTF::static_tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:45"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13120318,
+                        "name": "sendTransform",
+                        "qualified_name": "tf2_ros::TransformBroadcaster::sendTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:23"
+                        }
+                    },
+                    {
+                        "id": 13742862,
+                        "name": "tf_broadcaster_",
+                        "qualified_name": "GlobalTF::tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688816,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742920,
+                        "name": "service_timer_",
+                        "qualified_name": "GlobalTF::service_timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14173928,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::GlobalTF()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:68",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13688841,
+                        "name": "service_timer_callback",
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:72"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688816,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13763572,
+                        "name": "modelClient_",
+                        "qualified_name": "GlobalTF::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:25"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14237511,
+                        "name": "wait_for_service",
+                        "qualified_name": "rclcpp::ClientBase::wait_for_service",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:25"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13763572,
+                        "name": "modelClient_",
+                        "qualified_name": "GlobalTF::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:17:11"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:31"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14313635,
+                        "name": "async_send_request",
+                        "qualified_name": "rclcpp::Client<gazebo_msgs::srv::GetModelList>::async_send_request",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:31"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13688841,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::service_timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13763572,
+                        "name": "modelClient_",
+                        "qualified_name": "GlobalTF::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:25:17"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:33"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077512,
+                        "name": "begin",
+                        "qualified_name": "std::vector<std::basic_string<char>>::begin",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:33"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:19"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:56"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077609,
+                        "name": "end",
+                        "qualified_name": "std::vector<std::basic_string<char>>::end",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:56"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:42"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:92"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4077609,
+                        "name": "end",
+                        "qualified_name": "std::vector<std::basic_string<char>>::end",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:92"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:43:78"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:23"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 4078959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::basic_string<char>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:23"
+                        }
+                    },
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163336,
+                        "name": "robot_models_",
+                        "qualified_name": "GlobalTF::robot_models_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:44:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:25"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14158959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage_<std::allocator<void>>, std::allocator<void>, tf2_msgs::msg::TFMessage_<std::allocator<void>>, tf2_msgs::msg::TFMessage_<std::allocator<void>>>>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:25"
+                        }
+                    },
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14377536,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::model_srv_callback(const rclcpp::Client<gazebo_msgs::srv::GetModelList>::SharedFuture)::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:52:88",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:54:11"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742817,
+                        "name": "tf_callback",
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:53:13"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:25"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14158959,
+                        "name": "push_back",
+                        "qualified_name": "std::vector<std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage_<std::allocator<void>>, std::allocator<void>, tf2_msgs::msg::TFMessage_<std::allocator<void>>, tf2_msgs::msg::TFMessage_<std::allocator<void>>>>>::push_back",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:25"
+                        }
+                    },
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742693,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::model_srv_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14163266,
+                        "name": "tf_subscribers_",
+                        "qualified_name": "GlobalTF::tf_subscribers_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14422262,
+                        "is_lambda": true,
+                        "qualified_name": "GlobalTF::model_srv_callback(const rclcpp::Client<gazebo_msgs::srv::GetModelList>::SharedFuture)::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:60:88",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:11"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742817,
+                        "name": "tf_callback",
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:61:13"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13076415,
+                        "name": "sendTransform",
+                        "qualified_name": "tf2_ros::StaticTransformBroadcaster::sendTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:30"
+                        }
+                    },
+                    {
+                        "id": 13742888,
+                        "name": "static_tf_broadcaster_",
+                        "qualified_name": "GlobalTF::static_tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742888,
+                        "name": "static_tf_broadcaster_",
+                        "qualified_name": "GlobalTF::static_tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:142:7"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:23"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13120318,
+                        "name": "sendTransform",
+                        "qualified_name": "tf2_ros::TransformBroadcaster::sendTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:23"
+                        }
+                    },
+                    {
+                        "id": 13742862,
+                        "name": "tf_broadcaster_",
+                        "qualified_name": "GlobalTF::tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13742817,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::tf_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742862,
+                        "name": "tf_broadcaster_",
+                        "qualified_name": "GlobalTF::tf_broadcaster_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:144:7"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13688816,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:9:99"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13742920,
+                        "name": "service_timer_",
+                        "qualified_name": "GlobalTF::service_timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:8:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13688816,
+                        "is_lambda": false,
+                        "qualified_name": "GlobalTF::GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                        }
+                    },
+                    "node": {
+                        "id": 13688724,
+                        "qualified_name": "GlobalTF",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:87"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13763572,
+                        "name": "modelClient_",
+                        "qualified_name": "GlobalTF::modelClient_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:10:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 13742862,
+                    "qualified_name": "GlobalTF::tf_broadcaster_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:27:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:27:33"
+                    }
+                },
+                {
+                    "id": 13742888,
+                    "qualified_name": "GlobalTF::static_tf_broadcaster_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:28:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:28:39"
+                    }
+                },
+                {
+                    "id": 13742920,
+                    "qualified_name": "GlobalTF::service_timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:31:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:31:32"
+                    }
+                },
+                {
+                    "id": 13763572,
+                    "qualified_name": "GlobalTF::modelClient_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:32:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:32:61"
+                    }
+                },
+                {
+                    "id": 14163266,
+                    "qualified_name": "GlobalTF::tf_subscribers_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:35:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:35:74"
+                    }
+                },
+                {
+                    "id": 14163336,
+                    "qualified_name": "GlobalTF::robot_models_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:36:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:36:28"
+                    }
+                }
+            ],
+            "id": 13688724,
+            "methods": [
+                {
+                    "id": 13688816,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                    }
+                },
+                {
+                    "id": 13688841,
+                    "qualified_name": "GlobalTF::service_timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                    }
+                },
+                {
+                    "id": 13742693,
+                    "qualified_name": "GlobalTF::model_srv_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_future<class std::shared_ptr<struct gazebo_msgs::srv::GetModelList_Response_<class std::allocator<void> > > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                    }
+                },
+                {
+                    "id": 13742817,
+                    "qualified_name": "GlobalTF::tf_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct tf2_msgs::msg::TFMessage_<class std::allocator<void> > >",
+                            "const class std::basic_string<char> &",
+                            "_Bool"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                    }
+                },
+                {
+                    "id": 14163351,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GlobalTF &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163407,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [
+                            "class GlobalTF &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163463,
+                    "qualified_name": "GlobalTF::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GlobalTF &"
+                        ],
+                        "return_type": "class GlobalTF &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163511,
+                    "qualified_name": "GlobalTF::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GlobalTF &&"
+                        ],
+                        "return_type": "class GlobalTF &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163564,
+                    "qualified_name": "GlobalTF::~GlobalTF",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                }
+            ],
+            "qualified_name": "GlobalTF",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 13742862,
+                    "qualified_name": "GlobalTF::tf_broadcaster_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:27:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:27:33"
+                    }
+                },
+                {
+                    "id": 13742888,
+                    "qualified_name": "GlobalTF::static_tf_broadcaster_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:28:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:28:39"
+                    }
+                },
+                {
+                    "id": 13742920,
+                    "qualified_name": "GlobalTF::service_timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:31:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:31:32"
+                    }
+                },
+                {
+                    "id": 13763572,
+                    "qualified_name": "GlobalTF::modelClient_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:32:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:32:61"
+                    }
+                },
+                {
+                    "id": 14163266,
+                    "qualified_name": "GlobalTF::tf_subscribers_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:35:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:35:74"
+                    }
+                },
+                {
+                    "id": 14163336,
+                    "qualified_name": "GlobalTF::robot_models_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:36:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:36:28"
+                    }
+                }
+            ],
+            "id": 13688724,
+            "methods": [
+                {
+                    "id": 13688816,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:17:12"
+                    }
+                },
+                {
+                    "id": 13688841,
+                    "qualified_name": "GlobalTF::service_timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:19:31"
+                    }
+                },
+                {
+                    "id": 13742693,
+                    "qualified_name": "GlobalTF::model_srv_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_future<class std::shared_ptr<struct gazebo_msgs::srv::GetModelList_Response_<class std::allocator<void> > > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:21:78"
+                    }
+                },
+                {
+                    "id": 13742817,
+                    "qualified_name": "GlobalTF::tf_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct tf2_msgs::msg::TFMessage_<class std::allocator<void> > >",
+                            "const class std::basic_string<char> &",
+                            "_Bool"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:22:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:23:98"
+                    }
+                },
+                {
+                    "id": 14163351,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GlobalTF &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163407,
+                    "qualified_name": "GlobalTF::GlobalTF",
+                    "signature": {
+                        "parameter_types": [
+                            "class GlobalTF &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163463,
+                    "qualified_name": "GlobalTF::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GlobalTF &"
+                        ],
+                        "return_type": "class GlobalTF &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163511,
+                    "qualified_name": "GlobalTF::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GlobalTF &&"
+                        ],
+                        "return_type": "class GlobalTF &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                },
+                {
+                    "id": 14163564,
+                    "qualified_name": "GlobalTF::~GlobalTF",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:7"
+                    }
+                }
+            ],
+            "qualified_name": "GlobalTF",
+            "ros_name": "global_tf_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:14:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/global_tf.hpp:37:1"
+            }
+        }
+    ],
+    "subscriptions": [
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:50:35",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:54:12"
+            },
+            "type": "subscription"
+        },
+        {
+            "callback": {
+                "id": 14422262,
+                "qualified_name": "GlobalTF::model_srv_callback(const rclcpp::Client<gazebo_msgs::srv::GetModelList>::SharedFuture)::(anonymous class)::operator()",
+                "signature": {
+                    "parameter_types": [
+                        "const class std::shared_ptr<struct tf2_msgs::msg::TFMessage_<class std::allocator<void> > >"
+                    ],
+                    "return_type": "void"
+                },
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:60:88",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:11"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:35",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:12"
+            },
+            "topic": "/robot1/tf_static",
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:58:35",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/global_tf/global_tf.cpp:62:12"
+            },
+            "type": "subscription"
+        }
+    ]
+}

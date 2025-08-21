@@ -1,0 +1,583 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14702496,
+                        "is_lambda": true,
+                        "qualified_name": "CamReceiver::CamReceiver()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:18:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:5"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:33"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14724009,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:21"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "CamReceiver::CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271702,
+                        "name": "publisher_",
+                        "qualified_name": "CamReceiver::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "CamReceiver::CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674012,
+                        "name": "subscription_",
+                        "qualified_name": "CamReceiver::subscription_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14702496,
+                        "is_lambda": true,
+                        "qualified_name": "CamReceiver::CamReceiver()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:18:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:5"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:21"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14724009,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<etsi_its_cam_msgs::msg::CAM_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:21"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14702496,
+                        "is_lambda": true,
+                        "qualified_name": "CamReceiver::CamReceiver()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:18:72",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:5"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271702,
+                        "name": "publisher_",
+                        "qualified_name": "CamReceiver::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "CamReceiver::CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:33"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271702,
+                        "name": "publisher_",
+                        "qualified_name": "CamReceiver::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:32:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "CamReceiver::CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:84"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14271702,
+                        "name": "publisher_",
+                        "qualified_name": "CamReceiver::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14237840,
+                        "is_lambda": false,
+                        "qualified_name": "CamReceiver::CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                        }
+                    },
+                    "node": {
+                        "id": 14237748,
+                        "qualified_name": "CamReceiver",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:6"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14674012,
+                        "name": "subscription_",
+                        "qualified_name": "CamReceiver::subscription_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 14271702,
+                    "qualified_name": "CamReceiver::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:16:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:16:61"
+                    }
+                },
+                {
+                    "id": 14674012,
+                    "qualified_name": "CamReceiver::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:17:64"
+                    }
+                }
+            ],
+            "id": 14237748,
+            "methods": [
+                {
+                    "id": 14237840,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                    }
+                },
+                {
+                    "id": 14674027,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "const class CamReceiver &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674083,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "class CamReceiver &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674139,
+                    "qualified_name": "CamReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class CamReceiver &"
+                        ],
+                        "return_type": "class CamReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674187,
+                    "qualified_name": "CamReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class CamReceiver &&"
+                        ],
+                        "return_type": "class CamReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674240,
+                    "qualified_name": "CamReceiver::~CamReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                }
+            ],
+            "qualified_name": "CamReceiver",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 14271702,
+                    "qualified_name": "CamReceiver::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:16:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:16:61"
+                    }
+                },
+                {
+                    "id": 14674012,
+                    "qualified_name": "CamReceiver::subscription_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:17:64"
+                    }
+                }
+            ],
+            "id": 14237748,
+            "methods": [
+                {
+                    "id": 14237840,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:13:15"
+                    }
+                },
+                {
+                    "id": 14674027,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "const class CamReceiver &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674083,
+                    "qualified_name": "CamReceiver::CamReceiver",
+                    "signature": {
+                        "parameter_types": [
+                            "class CamReceiver &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674139,
+                    "qualified_name": "CamReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class CamReceiver &"
+                        ],
+                        "return_type": "class CamReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674187,
+                    "qualified_name": "CamReceiver::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class CamReceiver &&"
+                        ],
+                        "return_type": "class CamReceiver &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                },
+                {
+                    "id": 14674240,
+                    "qualified_name": "CamReceiver::~CamReceiver",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:7"
+                    }
+                }
+            ],
+            "qualified_name": "CamReceiver",
+            "ros_name": "cam_receiver",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:10:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_comm/include/auna_comm/cam_receiver.hpp:18:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:15:84"
+            },
+            "type": "publisher"
+        }
+    ],
+    "subscriptions": [
+        {
+            "callback": {
+                "id": 14702496,
+                "qualified_name": "CamReceiver::CamReceiver()::(anonymous class)::operator()",
+                "signature": {
+                    "parameter_types": [
+                        "const class std::shared_ptr<struct etsi_its_cam_msgs::msg::CAM_<class std::allocator<void> > >"
+                    ],
+                    "return_type": "void"
+                },
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:18:72",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:5"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:19",
+                "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:6"
+            },
+            "topic": "/cam",
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:17:19",
+                "end": "/home/ubuntu/workspace/packages/src/auna_comm/src/cam_receiver/cam_receiver.cpp:37:6"
+            },
+            "type": "subscription"
+        }
+    ]
+}

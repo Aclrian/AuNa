@@ -1,0 +1,1047 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14778858,
+                        "is_lambda": true,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:74",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:96"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:93"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774314,
+                        "name": "timer_callback",
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:46"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14833259,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::PoseStamped_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:21"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:96"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:95"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:30"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:8:83",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:8:83"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:8:83",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:8:83"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "LocalizationPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774300,
+                        "name": "timer_",
+                        "qualified_name": "LocalizationPosePublisher::timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14778858,
+                        "is_lambda": true,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:74",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:96"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774314,
+                        "name": "timer_callback",
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:78"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:38"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:27:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:38"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "LocalizationPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:32:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:21"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14833259,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::PoseStamped_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:21"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "LocalizationPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:46"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "LocalizationPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:67:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:88"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "LocalizationPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "LocalizationPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:97"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774300,
+                        "name": "timer_",
+                        "qualified_name": "LocalizationPosePublisher::timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:12:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 14740396,
+                    "qualified_name": "LocalizationPosePublisher::buffer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:19:19"
+                    }
+                },
+                {
+                    "id": 14740422,
+                    "qualified_name": "LocalizationPosePublisher::listener_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:20:30"
+                    }
+                },
+                {
+                    "id": 14774268,
+                    "qualified_name": "LocalizationPosePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:21:65"
+                    }
+                },
+                {
+                    "id": 14774300,
+                    "qualified_name": "LocalizationPosePublisher::timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:23:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:23:32"
+                    }
+                },
+                {
+                    "id": 14774344,
+                    "qualified_name": "LocalizationPosePublisher::prefix_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:26:15"
+                    }
+                }
+            ],
+            "id": 14740176,
+            "methods": [
+                {
+                    "id": 14740268,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                    }
+                },
+                {
+                    "id": 14740359,
+                    "qualified_name": "LocalizationPosePublisher::odom_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:17:68"
+                    }
+                },
+                {
+                    "id": 14774314,
+                    "qualified_name": "LocalizationPosePublisher::timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                    }
+                },
+                {
+                    "id": 14774359,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class LocalizationPosePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774415,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class LocalizationPosePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774471,
+                    "qualified_name": "LocalizationPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class LocalizationPosePublisher &"
+                        ],
+                        "return_type": "class LocalizationPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774519,
+                    "qualified_name": "LocalizationPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class LocalizationPosePublisher &&"
+                        ],
+                        "return_type": "class LocalizationPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774572,
+                    "qualified_name": "LocalizationPosePublisher::~LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                }
+            ],
+            "qualified_name": "LocalizationPosePublisher",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 14740396,
+                    "qualified_name": "LocalizationPosePublisher::buffer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:19:19"
+                    }
+                },
+                {
+                    "id": 14740422,
+                    "qualified_name": "LocalizationPosePublisher::listener_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:20:30"
+                    }
+                },
+                {
+                    "id": 14774268,
+                    "qualified_name": "LocalizationPosePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:21:65"
+                    }
+                },
+                {
+                    "id": 14774300,
+                    "qualified_name": "LocalizationPosePublisher::timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:23:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:23:32"
+                    }
+                },
+                {
+                    "id": 14774344,
+                    "qualified_name": "LocalizationPosePublisher::prefix_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:26:15"
+                    }
+                }
+            ],
+            "id": 14740176,
+            "methods": [
+                {
+                    "id": 14740268,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:14:29"
+                    }
+                },
+                {
+                    "id": 14740359,
+                    "qualified_name": "LocalizationPosePublisher::odom_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:17:68"
+                    }
+                },
+                {
+                    "id": 14774314,
+                    "qualified_name": "LocalizationPosePublisher::timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:24:23"
+                    }
+                },
+                {
+                    "id": 14774359,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class LocalizationPosePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774415,
+                    "qualified_name": "LocalizationPosePublisher::LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class LocalizationPosePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774471,
+                    "qualified_name": "LocalizationPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class LocalizationPosePublisher &"
+                        ],
+                        "return_type": "class LocalizationPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774519,
+                    "qualified_name": "LocalizationPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class LocalizationPosePublisher &&"
+                        ],
+                        "return_type": "class LocalizationPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774572,
+                    "qualified_name": "LocalizationPosePublisher::~LocalizationPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:7"
+                    }
+                }
+            ],
+            "qualified_name": "LocalizationPosePublisher",
+            "ros_name": "localization_pose_publisher_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:11:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/include/auna_tf/localization_pose_publisher.hpp:27:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 14774268,
+                "name": "publisher_",
+                "qualified_name": "LocalizationPosePublisher::publisher_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:3"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:88"
+            },
+            "topic": "global_pose",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:16",
+                "end": "/home/ubuntu/workspace/packages/src/auna_tf/src/localization_pose_publisher/localization_pose_publisher.cpp:10:88"
+            },
+            "type": "publisher"
+        }
+    ]
+}

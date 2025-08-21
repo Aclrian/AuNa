@@ -1,0 +1,941 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13552354,
+                        "is_lambda": true,
+                        "qualified_name": "VescStart::VescStart()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:67",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:95"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:92"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551239,
+                        "name": "callback_odometry",
+                        "qualified_name": "VescStart::callback_odometry",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13551166,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:42"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13674237,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:23"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 13551239,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_odometry",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:70"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:34"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 6204487,
+                        "name": "cancel",
+                        "qualified_name": "rclcpp::TimerBase::cancel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:27"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13517274,
+                        "name": "subscription_odometry_",
+                        "qualified_name": "VescStart::subscription_odometry_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13552354,
+                        "is_lambda": true,
+                        "qualified_name": "VescStart::VescStart()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:67",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:95"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551239,
+                        "name": "callback_odometry",
+                        "qualified_name": "VescStart::callback_odometry",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:71"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551120,
+                        "name": "publisher_cmd_vel_",
+                        "qualified_name": "VescStart::publisher_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551152,
+                        "name": "timer_publish_cmd_vel_",
+                        "qualified_name": "VescStart::timer_publish_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13551166,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:23"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13674237,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:23"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13551166,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551120,
+                        "name": "publisher_cmd_vel_",
+                        "qualified_name": "VescStart::publisher_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13551239,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_odometry",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:70"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:27"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 6204487,
+                        "name": "cancel",
+                        "qualified_name": "rclcpp::TimerBase::cancel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:27"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 13551239,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_odometry",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:70"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551152,
+                        "name": "timer_publish_cmd_vel_",
+                        "qualified_name": "VescStart::timer_publish_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:28:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 13551166,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:42"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551120,
+                        "name": "publisher_cmd_vel_",
+                        "qualified_name": "VescStart::publisher_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:20:3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:96"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13517274,
+                        "name": "subscription_odometry_",
+                        "qualified_name": "VescStart::subscription_odometry_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:86"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551120,
+                        "name": "publisher_cmd_vel_",
+                        "qualified_name": "VescStart::publisher_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 13106556,
+                        "is_lambda": false,
+                        "qualified_name": "VescStart::VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                        }
+                    },
+                    "node": {
+                        "id": 13106464,
+                        "qualified_name": "VescStart",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:9:96"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13551152,
+                        "name": "timer_publish_cmd_vel_",
+                        "qualified_name": "VescStart::timer_publish_cmd_vel_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:8:3"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 13517274,
+                    "qualified_name": "VescStart::subscription_odometry_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:13:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:13:60"
+                    }
+                },
+                {
+                    "id": 13551120,
+                    "qualified_name": "VescStart::publisher_cmd_vel_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:14:59"
+                    }
+                },
+                {
+                    "id": 13551152,
+                    "qualified_name": "VescStart::timer_publish_cmd_vel_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:15:32"
+                    }
+                }
+            ],
+            "id": 13106464,
+            "methods": [
+                {
+                    "id": 13106556,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                    }
+                },
+                {
+                    "id": 13551166,
+                    "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                    }
+                },
+                {
+                    "id": 13551239,
+                    "qualified_name": "VescStart::callback_odometry",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:70"
+                    }
+                },
+                {
+                    "id": 13551265,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [
+                            "const class VescStart &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551321,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [
+                            "class VescStart &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551377,
+                    "qualified_name": "VescStart::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class VescStart &"
+                        ],
+                        "return_type": "class VescStart &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551425,
+                    "qualified_name": "VescStart::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class VescStart &&"
+                        ],
+                        "return_type": "class VescStart &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551478,
+                    "qualified_name": "VescStart::~VescStart",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                }
+            ],
+            "qualified_name": "VescStart",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 13517274,
+                    "qualified_name": "VescStart::subscription_odometry_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:13:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:13:60"
+                    }
+                },
+                {
+                    "id": 13551120,
+                    "qualified_name": "VescStart::publisher_cmd_vel_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:14:59"
+                    }
+                },
+                {
+                    "id": 13551152,
+                    "qualified_name": "VescStart::timer_publish_cmd_vel_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:15:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:15:32"
+                    }
+                }
+            ],
+            "id": 13106464,
+            "methods": [
+                {
+                    "id": 13106556,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:10:13"
+                    }
+                },
+                {
+                    "id": 13551166,
+                    "qualified_name": "VescStart::callback_timer_publish_cmd_vel",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:17:39"
+                    }
+                },
+                {
+                    "id": 13551239,
+                    "qualified_name": "VescStart::callback_odometry",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:18:70"
+                    }
+                },
+                {
+                    "id": 13551265,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [
+                            "const class VescStart &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551321,
+                    "qualified_name": "VescStart::VescStart",
+                    "signature": {
+                        "parameter_types": [
+                            "class VescStart &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551377,
+                    "qualified_name": "VescStart::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class VescStart &"
+                        ],
+                        "return_type": "class VescStart &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551425,
+                    "qualified_name": "VescStart::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class VescStart &&"
+                        ],
+                        "return_type": "class VescStart &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                },
+                {
+                    "id": 13551478,
+                    "qualified_name": "VescStart::~VescStart",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:7"
+                    }
+                }
+            ],
+            "qualified_name": "VescStart",
+            "ros_name": "vesc_start",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:7:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/include/auna_f110/vesc_start.hpp:19:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 13551120,
+                "name": "publisher_cmd_vel_",
+                "qualified_name": "VescStart::publisher_cmd_vel_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:3"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:24",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:86"
+            },
+            "topic": "cmd_vel",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:24",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:7:86"
+            },
+            "type": "publisher"
+        }
+    ],
+    "subscriptions": [
+        {
+            "callback": {
+                "id": 13552354,
+                "qualified_name": "VescStart::VescStart()::(anonymous class)::operator()",
+                "signature": {
+                    "parameter_types": [
+                        "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                    ],
+                    "return_type": "void"
+                },
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:67",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:95"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:28",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:96"
+            },
+            "topic": "odom",
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:5:28",
+                "end": "/home/ubuntu/workspace/packages/src/auna_f110/src/vesc_start/vesc_start.cpp:6:96"
+            },
+            "type": "subscription"
+        }
+    ]
+}
