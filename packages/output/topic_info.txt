@@ -1,0 +1,79 @@
+
+Files:             a.bag_0.db3
+Bag size:          2.8 GiB
+Storage id:        sqlite3
+Duration:          111.436842268s
+Start:             Aug 27 2025 16:51:41.194956500 (1756313501.194956500)
+End:               Aug 27 2025 16:53:32.631798768 (1756313612.631798768)
+Messages:          85142
+Topic information: Topic: /robot1/bond | Type: bond/msg/Status | Count: 3081 | Serialization Format: cdr
+                   Topic: /robot1/odom | Type: nav_msgs/msg/Odometry | Count: 4819 | Serialization Format: cdr
+                   Topic: /robot1/joint_states | Type: sensor_msgs/msg/JointState | Count: 4870 | Serialization Format: cdr
+                   Topic: /robot1/scan | Type: sensor_msgs/msg/LaserScan | Count: 2968 | Serialization Format: cdr
+                   Topic: /robot1/camera/image_raw | Type: sensor_msgs/msg/Image | Count: 1527 | Serialization Format: cdr
+                   Topic: /robot1/camera/camera_info | Type: sensor_msgs/msg/CameraInfo | Count: 1520 | Serialization Format: cdr
+                   Topic: /robot1/gps_plugin/vel | Type: geometry_msgs/msg/Vector3Stamped | Count: 463 | Serialization Format: cdr
+                   Topic: /robot1/amcl/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/smoother_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 8 | Serialization Format: cdr
+                   Topic: /robot1/cacc/lookahead/y | Type: std_msgs/msg/Float64 | Count: 0 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 22689 | Serialization Format: cdr
+                   Topic: /robot1/received_global_plan | Type: nav_msgs/msg/Path | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/cacc/target_waypoint | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 6 | Serialization Format: cdr
+                   Topic: /robot1/cacc/closest_pose_waypoint | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/global_costmap/costmap_raw | Type: nav2_msgs/msg/Costmap | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel_twist_stamped | Type: geometry_msgs/msg/TwistStamped | Count: 1663 | Serialization Format: cdr
+                   Topic: /robot1/tf_static | Type: tf2_msgs/msg/TFMessage | Count: 1 | Serialization Format: cdr
+                   Topic: /rosout | Type: rcl_interfaces/msg/Log | Count: 3284 | Serialization Format: cdr
+                   Topic: /diagnostics | Type: diagnostic_msgs/msg/DiagnosticArray | Count: 289 | Serialization Format: cdr
+                   Topic: /robot1/cacc/waypoints | Type: geometry_msgs/msg/PoseArray | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/map_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 3 | Serialization Format: cdr
+                   Topic: /parameter_events | Type: rcl_interfaces/msg/ParameterEvent | Count: 414 | Serialization Format: cdr
+                   Topic: /map_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/waypoints | Type: visualization_msgs/msg/MarkerArray | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/tf | Type: tf2_msgs/msg/TFMessage | Count: 4394 | Serialization Format: cdr
+                   Topic: /robot1/waypoint_follower/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 4 | Serialization Format: cdr
+                   Topic: /robot1/controller_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 7 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel/wallfollowing | Type: ackermann_msgs/msg/AckermannDriveStamped | Count: 2983 | Serialization Format: cdr
+                   Topic: /robot1/unsmoothed_plan | Type: nav_msgs/msg/Path | Count: 0 | Serialization Format: cdr
+                   Topic: /performance_metrics | Type: gazebo_msgs/msg/PerformanceMetrics | Count: 373 | Serialization Format: cdr
+                   Topic: /robot1/cacc/lookahead/x | Type: std_msgs/msg/Float64 | Count: 0 | Serialization Format: cdr
+                   Topic: /robot_names | Type: auna_msgs/msg/StringArray | Count: 421 | Serialization Format: cdr
+                   Topic: /robot1/ground_truth_cam | Type: etsi_its_cam_msgs/msg/CAM | Count: 780 | Serialization Format: cdr
+                   Topic: /robot1/cacc/closest_cam_waypoint | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/robot_description | Type: std_msgs/msg/String | Count: 1 | Serialization Format: cdr
+                   Topic: /robot1/odometry/filtered | Type: nav_msgs/msg/Odometry | Count: 555 | Serialization Format: cdr
+                   Topic: /link_states | Type: gazebo_msgs/msg/LinkStates | Count: 233 | Serialization Format: cdr
+                   Topic: /robot1/gps/fix | Type: sensor_msgs/msg/NavSatFix | Count: 461 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel_twist | Type: geometry_msgs/msg/Twist | Count: 1664 | Serialization Format: cdr
+                   Topic: /robot1/global_pose | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/imu | Type: sensor_msgs/msg/Imu | Count: 10076 | Serialization Format: cdr
+                   Topic: /events/write_split | Type: rosbag2_interfaces/msg/WriteSplitEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel/cacc | Type: geometry_msgs/msg/Twist | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/cacc/lookahead_pose | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/behavior_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 4 | Serialization Format: cdr
+                   Topic: /robot1/planner_server/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 3 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel | Type: geometry_msgs/msg/Twist | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/local_costmap/local_costmap/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 7 | Serialization Format: cdr
+                   Topic: /robot1/lookahead_collision_arc | Type: nav_msgs/msg/Path | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/global_costmap/global_costmap/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 3 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel/nav2 | Type: geometry_msgs/msg/Twist | Count: 1 | Serialization Format: cdr
+                   Topic: /robot1/bt_navigator/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 4 | Serialization Format: cdr
+                   Topic: /robot1/global_costmap/costmap | Type: nav_msgs/msg/OccupancyGrid | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/local_costmap/published_footprint | Type: geometry_msgs/msg/PolygonStamped | Count: 382 | Serialization Format: cdr
+                   Topic: /robot1/velocity_smoother/transition_event | Type: lifecycle_msgs/msg/TransitionEvent | Count: 4 | Serialization Format: cdr
+                   Topic: /robot1/plan_smoothed | Type: nav_msgs/msg/Path | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/distance | Type: std_msgs/msg/Float32 | Count: 4816 | Serialization Format: cdr
+                   Topic: /robot1/local_costmap/costmap_raw | Type: nav2_msgs/msg/Costmap | Count: 81 | Serialization Format: cdr
+                   Topic: /robot1/gazebo_pose | Type: geometry_msgs/msg/PoseStamped | Count: 7851 | Serialization Format: cdr
+                   Topic: /robot1/local_costmap/costmap_updates | Type: map_msgs/msg/OccupancyGridUpdate | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/global_costmap/published_footprint | Type: geometry_msgs/msg/PolygonStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/lookahead_point | Type: geometry_msgs/msg/PointStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/local_costmap/costmap | Type: nav_msgs/msg/OccupancyGrid | Count: 81 | Serialization Format: cdr
+                   Topic: /robot1/global_costmap/costmap_updates | Type: map_msgs/msg/OccupancyGridUpdate | Count: 0 | Serialization Format: cdr
+                   Topic: /clock | Type: rosgraph_msgs/msg/Clock | Count: 471 | Serialization Format: cdr
+                   Topic: /robot1/initialpose | Type: geometry_msgs/msg/PoseWithCovarianceStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /robot1/cmd_vel_ackermann | Type: ackermann_msgs/msg/AckermannDriveStamped | Count: 1662 | Serialization Format: cdr
+                   Topic: /robot1/plan | Type: nav_msgs/msg/Path | Count: 0 | Serialization Format: cdr
+                   Topic: /model_states | Type: gazebo_msgs/msg/ModelStates | Count: 215 | Serialization Format: cdr
+

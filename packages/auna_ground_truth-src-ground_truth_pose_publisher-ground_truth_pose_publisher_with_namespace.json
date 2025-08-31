@@ -1,0 +1,912 @@
+{
+    "accesses": {
+        "call": [
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14778838,
+                        "is_lambda": true,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:80",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:102"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:99"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774314,
+                        "name": "timer_callback",
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:46"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14820809,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::PoseStamped_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:21"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "call",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:95"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "GroundTruthPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:30"
+                        }
+                    }
+                ]
+            }
+        ],
+        "none": [
+            {
+                "context": {
+                    "access_type": "none",
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:8:83",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:8:83"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "GroundTruthPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:8:83",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:8:83"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774300,
+                        "name": "timer_",
+                        "qualified_name": "GroundTruthPosePublisher::timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14778838,
+                        "is_lambda": true,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher()::(anonymous class)::operator()",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:80",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:102"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774314,
+                        "name": "timer_callback",
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:84"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:38"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 13175767,
+                        "name": "lookupTransform",
+                        "qualified_name": "tf2::BufferCore::lookupTransform",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:38"
+                        }
+                    },
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "GroundTruthPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:30"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14740396,
+                        "name": "buffer_",
+                        "qualified_name": "GroundTruthPosePublisher::buffer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:24",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:24:30"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:21"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14820809,
+                        "name": "publish",
+                        "qualified_name": "rclcpp::Publisher<geometry_msgs::msg::PoseStamped_<std::allocator<void>>>::publish",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:21"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "none",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:9"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pub": [
+            {
+                "context": {
+                    "access_type": "pub",
+                    "method": {
+                        "id": 14774314,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:46"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:41:9"
+                        }
+                    }
+                ]
+            }
+        ],
+        "write": [
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:94"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774268,
+                        "name": "publisher_",
+                        "qualified_name": "GroundTruthPosePublisher::publisher_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:9"
+                        }
+                    }
+                ]
+            },
+            {
+                "context": {
+                    "access_type": "write",
+                    "method": {
+                        "id": 14740268,
+                        "is_lambda": false,
+                        "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                        }
+                    },
+                    "node": {
+                        "id": 14740176,
+                        "qualified_name": "GroundTruthPosePublisher",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+                        }
+                    },
+                    "statement": {
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:103"
+                        }
+                    }
+                },
+                "member": [
+                    {
+                        "id": 14774300,
+                        "name": "timer_",
+                        "qualified_name": "GroundTruthPosePublisher::timer_",
+                        "source_range": {
+                            "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:3",
+                            "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:12:9"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "fields": [
+                {
+                    "id": 14740396,
+                    "qualified_name": "GroundTruthPosePublisher::buffer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:19:19"
+                    }
+                },
+                {
+                    "id": 14740422,
+                    "qualified_name": "GroundTruthPosePublisher::listener_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:20:30"
+                    }
+                },
+                {
+                    "id": 14774268,
+                    "qualified_name": "GroundTruthPosePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:21:65"
+                    }
+                },
+                {
+                    "id": 14774300,
+                    "qualified_name": "GroundTruthPosePublisher::timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:23:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:23:32"
+                    }
+                },
+                {
+                    "id": 14774344,
+                    "qualified_name": "GroundTruthPosePublisher::prefix_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:26:15"
+                    }
+                }
+            ],
+            "id": 14740176,
+            "methods": [
+                {
+                    "id": 14740268,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                    }
+                },
+                {
+                    "id": 14740359,
+                    "qualified_name": "GroundTruthPosePublisher::odom_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:17:68"
+                    }
+                },
+                {
+                    "id": 14774314,
+                    "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                    }
+                },
+                {
+                    "id": 14774359,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthPosePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774415,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthPosePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774471,
+                    "qualified_name": "GroundTruthPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthPosePublisher &"
+                        ],
+                        "return_type": "class GroundTruthPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774519,
+                    "qualified_name": "GroundTruthPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthPosePublisher &&"
+                        ],
+                        "return_type": "class GroundTruthPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774572,
+                    "qualified_name": "GroundTruthPosePublisher::~GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                }
+            ],
+            "qualified_name": "GroundTruthPosePublisher",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+            }
+        },
+        {
+            "fields": [
+                {
+                    "id": 14740396,
+                    "qualified_name": "GroundTruthPosePublisher::buffer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:19:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:19:19"
+                    }
+                },
+                {
+                    "id": 14740422,
+                    "qualified_name": "GroundTruthPosePublisher::listener_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:20:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:20:30"
+                    }
+                },
+                {
+                    "id": 14774268,
+                    "qualified_name": "GroundTruthPosePublisher::publisher_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:21:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:21:65"
+                    }
+                },
+                {
+                    "id": 14774300,
+                    "qualified_name": "GroundTruthPosePublisher::timer_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:23:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:23:32"
+                    }
+                },
+                {
+                    "id": 14774344,
+                    "qualified_name": "GroundTruthPosePublisher::prefix_",
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:26:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:26:15"
+                    }
+                }
+            ],
+            "id": 14740176,
+            "methods": [
+                {
+                    "id": 14740268,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:14:28"
+                    }
+                },
+                {
+                    "id": 14740359,
+                    "qualified_name": "GroundTruthPosePublisher::odom_callback",
+                    "signature": {
+                        "parameter_types": [
+                            "const class std::shared_ptr<struct nav_msgs::msg::Odometry_<class std::allocator<void> > >"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:17:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:17:68"
+                    }
+                },
+                {
+                    "id": 14774314,
+                    "qualified_name": "GroundTruthPosePublisher::timer_callback",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:3",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:24:23"
+                    }
+                },
+                {
+                    "id": 14774359,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthPosePublisher &"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774415,
+                    "qualified_name": "GroundTruthPosePublisher::GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthPosePublisher &&"
+                        ],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774471,
+                    "qualified_name": "GroundTruthPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "const class GroundTruthPosePublisher &"
+                        ],
+                        "return_type": "class GroundTruthPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774519,
+                    "qualified_name": "GroundTruthPosePublisher::operator=",
+                    "signature": {
+                        "parameter_types": [
+                            "class GroundTruthPosePublisher &&"
+                        ],
+                        "return_type": "class GroundTruthPosePublisher &"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                },
+                {
+                    "id": 14774572,
+                    "qualified_name": "GroundTruthPosePublisher::~GroundTruthPosePublisher",
+                    "signature": {
+                        "parameter_types": [],
+                        "return_type": "void"
+                    },
+                    "source_range": {
+                        "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7",
+                        "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:7"
+                    }
+                }
+            ],
+            "qualified_name": "GroundTruthPosePublisher",
+            "ros_name": "localization_pose_publisher_node",
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:11:1",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/include/auna_ground_truth/ground_truth_pose_publisher.hpp:27:1"
+            }
+        }
+    ],
+    "publishers": [
+        {
+            "member": {
+                "id": 14774268,
+                "name": "publisher_",
+                "qualified_name": "GroundTruthPosePublisher::publisher_",
+                "source_range": {
+                    "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:3",
+                    "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:9"
+                }
+            },
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:22",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:94"
+            },
+            "topic": "gazebo_pose",
+            "type": "publisher"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:22",
+                "end": "/home/ubuntu/workspace/packages/src/auna_ground_truth/src/ground_truth_pose_publisher/ground_truth_pose_publisher.cpp:10:94"
+            },
+            "type": "publisher"
+        }
+    ]
+}

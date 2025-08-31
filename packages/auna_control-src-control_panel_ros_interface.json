@@ -1,0 +1,25 @@
+{
+    "subscriptions": [
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:66:22",
+                "end": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:68:90"
+            },
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:69:25",
+                "end": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:71:88"
+            },
+            "type": "subscription"
+        },
+        {
+            "source_range": {
+                "begin": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:72:21",
+                "end": "/home/ubuntu/workspace/packages/src/auna_control/src/control_panel_ros_interface.cpp:74:85"
+            },
+            "type": "subscription"
+        }
+    ]
+}
