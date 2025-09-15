@@ -59,21 +59,38 @@ if __name__ == '__main__':
     ros2_handler = Ros2Handler()
     cpu_handler = CpuTimeHandler()
 
-    Processor(ros2_handler, cpu_handler).process(events)
+    Processor(ros2_handler).process(events)
+    # Processor(ros2_handler, cpu_handler).process(events)
 
     # Use data model utils to extract information
     ros2_util = Ros2DataModelUtil(ros2_handler.data)
-    cpu_util = CpuTimeDataModelUtil(cpu_handler.data)
+    # cpu_util = CpuTimeDataModelUtil(cpu_handler.data)
 
     callback_symbols = ros2_util.get_callback_symbols()
     callback_object, callback_symbol = list(callback_symbols.items())[0]
+    print(len(list(callback_symbols.items())))
     callback_durations = ros2_util.get_callback_durations(callback_object)
-    time_per_thread = cpu_util.get_time_per_thread()
+    #print(callback_symbols)
+    # time_per_thread = cpu_util.get_time_per_thread()
     # ...
 
     # Display, e.g., with bokeh, matplotlib, print, etc.
     print(callback_symbol)
     print(callback_durations)
+    timing = []
+    callbacks = list(callback_symbols.items())
+    for callback_object, callback_symbol in callbacks:
+        callback_durations = ros2_util.get_callback_durations(callback_object)
+        #print(callback_durations["duration"])
+        avg = np.array(callback_durations["duration"]).mean()
+        # print(callback_symbol + ": " + str(avg))
+        timing.append({"obj": callback_symbol, "avg": avg})
+    for entry in sorted(timing, key=lambda x: x["avg"]):
+        callback_symbol = entry["obj"]
+        avg = entry["avg"]
+        print(callback_symbol + ": " + str(avg))
+        
 
-    print(time_per_thread)
+
+    # print(time_per_thread)
     # ...

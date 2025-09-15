@@ -5,13 +5,13 @@ package_name = 'tracinganalysis'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    packages=find_packages(include=["*"], exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools', 'notebook>7', 'pandas>2', 'numpy>2', 'bokeh>3.2'],
+    install_requires=['setuptools', 'notebook>7', 'pandas', 'numpy==1.21.6', 'bokeh'],
     zip_safe=True,
     maintainer='ubuntu',
     maintainer_email='ubuntu@todo.todo',
@@ -23,4 +23,5 @@ setup(
             'my_node = tracinganalysis.my_node:main'
         ],
     },
+    include_package_data=True,
 )

@@ -1,0 +1,8 @@
+build:
+  symlink-install: true
+  base-paths:
+    - packages/src
+  build-base: ./packages/build
+  install-base: ./packages/install
+  cmake-args:
+    - -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
