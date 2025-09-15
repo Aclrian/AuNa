@@ -13,3 +13,7 @@
 [submodule "packages/src/physical/ros-g29-force-feedback"]
 	path = packages/src/physical/ros-g29-force-feedback
 	url = https://github.com/kuriatsu/ros-g29-force-feedback.git
+[submodule "packages/src/ros2_latency_analysis"]
+	path = packages/src/ros2_latency_analysis
+	url = https://github.com/TUM-AVS/ros2_latency_analysis.git
+	branch = dataflow-analysis

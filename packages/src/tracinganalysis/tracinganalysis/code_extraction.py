@@ -2,18 +2,17 @@ import os
 import sys
 
 
-def extract(path: str=os.path.join(os.path.expanduser("~"), "workspace", "packages", "src", "ros2_latency_analysis")):
+def extract(input_dir: str, path: str=os.path.join(os.path.expanduser("~"), "workspace", "packages", "src", "ros2_latency_analysis")):
     sys.path.append(path) #branch dataflow-analysis
 
     import clang_interop.process_clang_output as pco
 
-    pco.IN_DIR = "/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/"
+    pco.IN_DIR = input_dir
     pco.SRC_DIR = ""
-    print("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/template_system-src-generic_node.json")
     return pco.process_clang_output()
 
 if __name__ == "__main__":
-    clang_context = extract()
+    clang_context = extract("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/")
     print(clang_context)
 
 
