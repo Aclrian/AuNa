@@ -1,18 +1,66 @@
+from dataclasses import dataclass
+import json
 import os
 import sys
+from typing import Dict, List, Set
+
+sys.path.append(os.path.join(os.path.expanduser("~"), "workspace", "packages", "src", "ros2_latency_analysis"))
+from clang_interop.cl_types import ClField, ClMemberRef, ClMethod, ClNode, ClPublisher, ClSubscription, ClTimer, ClTranslationUnit
+from clang_interop.process_clang_output import definitions_from_json, find_data_deps
 
 
-def extract(input_dir: str, path: str=os.path.join(os.path.expanduser("~"), "workspace", "packages", "src", "ros2_latency_analysis")):
-    sys.path.append(path) #branch dataflow-analysis
+@dataclass
+class ClContext:
+    translation_units: 'ClTranslationUnit'
 
+    nodes: Set['ClNode']
+    publishers: Set['ClPublisher']
+    subscriptions: Set['ClSubscription']
+    timers: Set['ClTimer']
+
+    fields: Set['ClField']
+    methods: Set['ClMethod']
+
+    accesses: List['ClMemberRef']
+
+    dependencies: Dict['ClMethod', Set['ClMethod']]
+    publications: Dict['ClMethod', Set['ClPublisher']]
+
+
+def new_extraction(input_directory: str):
+    unsupressed_stdout = sys.stdout
+    sys.stdout = open('/dev/null', 'w')
+
+    contexts = []
+    for filename in os.listdir(input_directory):
+        print(f"Processing {filename}")
+        if not filename.endswith(".json"):
+            continue
+
+        with open(os.path.join(input_directory, filename), "r") as f:
+            cb_dict = json.load(f)
+            if cb_dict is None:
+                print(f"  [WARN ] Empty tool output detected in {filename}")
+                continue
+
+            tu = ClTranslationUnit(filename)
+            
+            nodes, pubs, subs, timers, fields, methods, accesses = definitions_from_json(cb_dict, tu)
+            deps, publications = find_data_deps(accesses)
+            contexts.append(ClContext(tu, nodes, pubs, subs, timers, fields, methods, accesses,
+                                    deps, publications))
+    sys.stdout = unsupressed_stdout    
+    return contexts
+
+
+def extract(input_dir: str):
     import clang_interop.process_clang_output as pco
-
     pco.IN_DIR = input_dir
     pco.SRC_DIR = ""
     return pco.process_clang_output()
 
 if __name__ == "__main__":
-    clang_context = extract("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/")
+    clang_context = new_extraction("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/")
     print(clang_context)
 
 
