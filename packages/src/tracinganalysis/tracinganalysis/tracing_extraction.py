@@ -9,18 +9,22 @@ from dataclasses import dataclass, field
 import os
 import sys
 import re
-from typing import Any, Callable, ClassVar, Dict, Hashable, Iterable, Optional, Protocol, Tuple, Type, TypeVar, Union
+from typing import Any, Callable, ClassVar, Dict, Hashable, Optional, Protocol, Type, TypeVar, Union
 
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
 
 from tracinganalysis.tracetools_analysis_extension import Ros2HandlerWithExtendedTake
+from tracinganalysis.code_extraction import ClContext
 TRACING_WS_BUILD_PATH = "~/tracing/build/"
 
 # The last few imports can only be resolved using the user-specified paths above
 sys.path.append(os.path.join(TRACING_WS_BUILD_PATH, "tracetools_read/"))
 sys.path.append(os.path.join(TRACING_WS_BUILD_PATH, "tracetools_analysis/"))
+
+
+sys.path.append(os.path.join(os.path.expanduser("~"), "workspace", "packages", "src", "ros2_latency_analysis"))
+from clang_interop.cl_types import ClContext
 
 
 @dataclass
@@ -78,15 +82,27 @@ class CallbackObject(Indexable):
     callback_object: np.int64
     callback_symbols: List[CallbackSymbol] = field(
         init=False, default_factory=list)
+    cached_callback_instances: Optional[pd.DataFrame] = field(init=False, default=None)
     _store: "TracingStore"
 
-    def addCallbackSymbol(self, symbol: CallbackSymbol):
+    def add_callbacksymbol(self, symbol: CallbackSymbol):
         self.callback_symbols.append(symbol)
 
     @property
     def callback_instances(self) -> Optional[List[CallbackInstance]]:
         if self.callback_object in self._store.callback_instances_modified:
             return self._store.callback_instances_modified[int(self.callback_object)]
+        return None
+    
+    @property
+    def callback_instances_new(self) -> Optional[pd.DataFrame]:
+        if self.cached_callback_instances is not None:
+            return self.cached_callback_instances
+        if self._store.callback_instances is not None:
+            if isinstance(self._store.callback_instances, pd.DataFrame):
+                select = self._store.callback_instances['callback_object'] == self.callback_object
+                self.cached_callback_instances = self._store.callback_instances[select]
+                return self.cached_callback_instances
         return None
 
 
@@ -99,9 +115,23 @@ class Publisher(Indexable):
     depth: int
     instances: list[PublisherInstance] = field(
         init=False, default_factory=list)
+    cached_publish_instances: Optional[pd.DataFrame] = field(init=False, default=None)
+    _store: "TracingStore"
 
-    def addInstance(self, instance: PublisherInstance):
+
+    def add_instance(self, instance: PublisherInstance):
         self.instances.append(instance)
+
+    @property
+    def publish_instances_new(self) -> Optional[pd.DataFrame]:
+        if self.cached_publish_instances is not None:
+            return self.cached_publish_instances
+        if self._store.publish_instances is not None:
+            if isinstance(self._store.publish_instances, pd.DataFrame):
+                select = self._store.publish_instances['publisher_handle'] == self.id
+                self.cached_publish_instances = self._store.publish_instances[select]
+                return self.cached_publish_instances
+        return None
 
 
 @dataclass
@@ -114,7 +144,7 @@ class Subscription(Indexable):
     subscription_objects: list[SubscriptionObject] = field(
         init=False, default_factory=list)
 
-    def addSubscriptionObject(self, subscription_object: SubscriptionObject):
+    def add_subscriptionobject(self, subscription_object: SubscriptionObject):
         self.subscription_objects.append(subscription_object)
 
 
@@ -150,17 +180,21 @@ class Node(Indexable):
                     ] = field(init=False, default_factory=dict)
     services: List[Service] = field(init=False, default_factory=list)
     clients: List[Client] = field(init=False, default_factory=list)
+    c_contexts: List["ClContext"] = field(init=False, default_factory=list)
 
-    def addCallback(self, index: int, callback: Timer | Publisher | Subscription):
+    def add_callback(self, index: int, callback: Timer | Publisher | Subscription):
         if index in self.callbacks:
             self.callbacks[index].append(callback)
         self.callbacks[index] = [callback]
 
-    def addService(self, service: Service):
+    def add_service(self, service: Service):
         self.services.append(service)
 
-    def addClient(self, client: Client):
+    def add_client(self, client: Client):
         self.clients.append(client)
+
+    def add_code(self, context: "ClContext"):
+        self.c_contexts.append(context)
 
 
 class DataClassProtocol(Protocol):
@@ -176,6 +210,8 @@ class TracingStore:
     callback_instances_modified: Dict[int, List[CallbackInstance]] = field(
         init=False, default_factory=dict)
     nodes: Dict[int, Node] = field(init=False, default_factory=dict)
+    callback_instances: Optional[pd.DataFrame]
+    publish_instances: Optional[pd.DataFrame]
 
     def _get_instance(self, dc: Type[T], row: pd.Series, index: Hashable):
         data: dict[str, Any] = {"id": index}
@@ -213,7 +249,7 @@ class TracingStore:
         for key, cb in cb_dict.items():
             try:
                 node = nodes[cb.node_handle]
-                node.addCallback(key, cb)
+                node.add_callback(key, cb)
             except KeyError:
                 pass  # ignore
 
@@ -221,7 +257,7 @@ class TracingStore:
         for key, service in services.items():
             try:
                 node = nodes[service.node_handle]
-                node.addService(service)
+                node.add_service(service)
             except KeyError:
                 pass  # ignore
 
@@ -230,7 +266,7 @@ class TracingStore:
             for client in c_list:
                 try:
                     node = nodes[client.node_handle]
-                    node.addClient(client)
+                    node.add_client(client)
                 except KeyError:
                     pass  # ignore
 
@@ -241,7 +277,7 @@ class TracingStore:
                 if timer_node_link:
                     node = nodes[int(timer_node_link.node_handle)]
                     for timer in timer_list:
-                        node.addCallback(key, timer)
+                        node.add_callback(key, timer)
             except KeyError:
                 pass  # ignore
 
@@ -252,7 +288,7 @@ class TracingStore:
                     continue  # ignore
                 sym_list = syms[int(obj.callback_object)]
                 for sym in sym_list:
-                    obj.addCallbackSymbol(sym)
+                    obj.add_callbacksymbol(sym)
 
     def _add_callbackinstances_to_callbackobjects(self, cb_inst: Dict[int, CallbackInstance]):
         cb_inst_by_callback_object: Dict[int, List[CallbackInstance]] = dict()
@@ -266,7 +302,7 @@ class TracingStore:
     def _add_publisherinstances_to_publishers(self, instances: Dict[int, PublisherInstance], publishers: Dict[int, Publisher]):
         for inst in instances.values():
             try:
-                publishers[int(inst.publisher_handle)].addInstance(inst)
+                publishers[int(inst.publisher_handle)].add_instance(inst)
             except KeyError:
                 pass  # publisher is in ignore list
 
@@ -274,14 +310,14 @@ class TracingStore:
         for sub_obj_list in sub_objects.values():
             for sub_obj in sub_obj_list:
                 try:
-                    subscriptions[int(sub_obj.subscription_handle)].addSubscriptionObject(
+                    subscriptions[int(sub_obj.subscription_handle)].add_subscriptionobject(
                         sub_obj)
                 except KeyError:
                     pass  # ignore
 
     @classmethod
     def extract(cls, traces: str):
-        SKIP_TOPICS = ["/parameter_events", "/rosout"]
+        SKIP_TOPICS = ["/parameter_events", "/rosout", "/clock"]
         SKIP_NODES = ["launch_ros_", r"executor_\d+_container"]
         SKIP_CALLBACK_SYMBOLS = ["ParameterService"]
         SKIP_SERVICE = [".*/get_parameters$", ".*/get_parameter_types$", ".*/set_parameters$",
@@ -298,53 +334,83 @@ class TracingStore:
         handler = Ros2HandlerWithExtendedTake.process(file)
         data_model: Ros2DataModel = handler.data  # type: ignore
 
-        start = time.time()
         store = TracingStore()
+        def log_time_taken(operation_name, start_time):
+            end_time = time.time()
+            duration = end_time - start_time
+            print(f"{str(operation_name)} took {duration:.4f} seconds")
+            return time.time()
+        
+        start = time.time()
         # only CallbackObject, CallbackSymbol, SubscriptionObject and Timer seem to be duplicated. see Ros2DataModel:__init__
         nodes = store._get_list_from_dataframe(Node, data_model.nodes, lambda node: any(
             [re.match(pattern, node.name) for pattern in SKIP_NODES]))
+        start_time = log_time_taken("Node", start)
         subscriptions = store._get_list_from_dataframe(
             Subscription, data_model.rcl_subscriptions, skip_topics)
+        start_time = log_time_taken("Sub", start_time)
         publishers = store._get_list_from_dataframe(
             Publisher, data_model.rcl_publishers, skip_topics)
+        start_time = log_time_taken("Pub", start_time)
         timers = store._get_list_from_dataframe_with_duplicates(
             Timer, data_model.timers)
+        start_time = log_time_taken("timers", start_time)
         timer_node_links = store._get_list_from_dataframe(
             TimerNodeLink, data_model.timer_node_links)
+        start_time = log_time_taken("tml", start_time)
         subscription_objs = store._get_list_from_dataframe_with_duplicates(
             SubscriptionObject, data_model.subscription_objects)
+        start_time = log_time_taken("subo", start_time)
         callback_objects = store._get_list_from_dataframe_with_duplicates(
             CallbackObject, data_model.callback_objects)
+        start_time = log_time_taken("cbo", start_time)
         callback_symbols = store._get_list_from_dataframe_with_duplicates(CallbackSymbol, data_model.callback_symbols, lambda cbs: any(
             pattern in cbs.symbol for pattern in SKIP_CALLBACK_SYMBOLS))
-        publish_instances = store._get_list_from_dataframe(
-            PublisherInstance, data_model.rcl_publish_instances)
-        callback_instances = store._get_list_from_dataframe(
-            CallbackInstance, data_model.callback_instances)
+        start_time = log_time_taken("cbs", start_time)
+        store.publish_instances = data_model.rcl_publish_instances
+        #publish_instances = store._get_list_from_dataframe(
+        #     PublisherInstance, data_model.rcl_publish_instances)
+        start_time = log_time_taken("pubi", start_time)
+        store.callback_instances = data_model.callback_instances
+        #callback_instances = store._get_list_from_dataframe(
+        #    CallbackInstance, data_model.callback_instances)
 
+        start_time = log_time_taken("cbi", start_time)
         clients = store._get_list_from_dataframe_with_duplicates(
             Client, data_model.clients)
+        start_time = log_time_taken("client", start_time)
         services = store._get_list_from_dataframe(
             Service, data_model.services, skip_if=skip_service)
         store.callback_objects = callback_objects
+        start_time = log_time_taken("service", start_time)
+        end =time.time()
 
         # Node
         store._add_callbacks_to_nodes(nodes, subscriptions)
+        start_time = log_time_taken("sub2n", start_time)
         store._add_callbacks_to_nodes(nodes, publishers)
+        start_time = log_time_taken("pub2n", start_time)
         store._add_timers_to_nodes(nodes, timers, timer_node_links)
+        start_time = log_time_taken("t2n", start_time)
         store._add_services_to_nodes(nodes, services)
+        start_time = log_time_taken("s2n", start_time)
         store._add_clients_to_nodes(nodes, clients)
+        start_time = log_time_taken("c2n", start_time)
 
         # Sub and Pub
         store._add_subscriptionobjects_to_subscriptions(
             subscription_objs, subscriptions)
-        store._add_publisherinstances_to_publishers(
-            publish_instances, publishers)
+        start_time = log_time_taken("subo2sub", start_time)
+        #store._add_publisherinstances_to_publishers(
+        #    publish_instances, publishers)
+        start_time = log_time_taken("pubi2pub", start_time)
 
         # CBO
-        store._add_callbackinstances_to_callbackobjects(callback_instances)
+        #store._add_callbackinstances_to_callbackobjects(callback_instances)
+        start_time = log_time_taken("cbi2co", start_time)
         store._add_callbacksymbols_to_callbackobjects(
             callback_symbols, callback_objects)
+        start_time = log_time_taken("cbs2co", start_time)
 
         store.nodes = nodes
         end = time.time()
@@ -354,19 +420,12 @@ class TracingStore:
 
 
 if __name__ == "__main__":
-    import cProfile
-    profiler = cProfile.Profile()
-    profiler.enable()
-
     # traces = '~/workspace/traces/new-small-trace/ust'
     traces = '~/workspace/traces/enhanced_tracing/ust'
-    # traces = '~/workspace/traces/session-20250913161446/ust' #python 1st try
     # traces = '~/workspace/traces/session-20250913163542/ust' # python
 
     store = TracingStore.extract(traces)
     print()
-
-    profiler.disable()
 
 # def duration():
 #     import math
