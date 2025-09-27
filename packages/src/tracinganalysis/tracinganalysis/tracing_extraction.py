@@ -335,87 +335,48 @@ class TracingStore:
         data_model: Ros2DataModel = handler.data  # type: ignore
 
         store = TracingStore()
-        def log_time_taken(operation_name, start_time):
-            end_time = time.time()
-            duration = end_time - start_time
-            print(f"{str(operation_name)} took {duration:.4f} seconds")
-            return time.time()
         
-        start = time.time()
         # only CallbackObject, CallbackSymbol, SubscriptionObject and Timer seem to be duplicated. see Ros2DataModel:__init__
         nodes = store._get_list_from_dataframe(Node, data_model.nodes, lambda node: any(
             [re.match(pattern, node.name) for pattern in SKIP_NODES]))
-        start_time = log_time_taken("Node", start)
         subscriptions = store._get_list_from_dataframe(
             Subscription, data_model.rcl_subscriptions, skip_topics)
-        start_time = log_time_taken("Sub", start_time)
         publishers = store._get_list_from_dataframe(
             Publisher, data_model.rcl_publishers, skip_topics)
-        start_time = log_time_taken("Pub", start_time)
         timers = store._get_list_from_dataframe_with_duplicates(
             Timer, data_model.timers)
-        start_time = log_time_taken("timers", start_time)
         timer_node_links = store._get_list_from_dataframe(
             TimerNodeLink, data_model.timer_node_links)
-        start_time = log_time_taken("tml", start_time)
         subscription_objs = store._get_list_from_dataframe_with_duplicates(
             SubscriptionObject, data_model.subscription_objects)
-        start_time = log_time_taken("subo", start_time)
         callback_objects = store._get_list_from_dataframe_with_duplicates(
             CallbackObject, data_model.callback_objects)
-        start_time = log_time_taken("cbo", start_time)
         callback_symbols = store._get_list_from_dataframe_with_duplicates(CallbackSymbol, data_model.callback_symbols, lambda cbs: any(
             pattern in cbs.symbol for pattern in SKIP_CALLBACK_SYMBOLS))
-        start_time = log_time_taken("cbs", start_time)
         store.publish_instances = data_model.rcl_publish_instances
-        #publish_instances = store._get_list_from_dataframe(
-        #     PublisherInstance, data_model.rcl_publish_instances)
-        start_time = log_time_taken("pubi", start_time)
         store.callback_instances = data_model.callback_instances
-        #callback_instances = store._get_list_from_dataframe(
-        #    CallbackInstance, data_model.callback_instances)
 
-        start_time = log_time_taken("cbi", start_time)
         clients = store._get_list_from_dataframe_with_duplicates(
             Client, data_model.clients)
-        start_time = log_time_taken("client", start_time)
         services = store._get_list_from_dataframe(
             Service, data_model.services, skip_if=skip_service)
         store.callback_objects = callback_objects
-        start_time = log_time_taken("service", start_time)
-        end =time.time()
 
         # Node
         store._add_callbacks_to_nodes(nodes, subscriptions)
-        start_time = log_time_taken("sub2n", start_time)
         store._add_callbacks_to_nodes(nodes, publishers)
-        start_time = log_time_taken("pub2n", start_time)
         store._add_timers_to_nodes(nodes, timers, timer_node_links)
-        start_time = log_time_taken("t2n", start_time)
         store._add_services_to_nodes(nodes, services)
-        start_time = log_time_taken("s2n", start_time)
         store._add_clients_to_nodes(nodes, clients)
-        start_time = log_time_taken("c2n", start_time)
 
-        # Sub and Pub
+        # Sub
         store._add_subscriptionobjects_to_subscriptions(
             subscription_objs, subscriptions)
-        start_time = log_time_taken("subo2sub", start_time)
-        #store._add_publisherinstances_to_publishers(
-        #    publish_instances, publishers)
-        start_time = log_time_taken("pubi2pub", start_time)
-
         # CBO
-        #store._add_callbackinstances_to_callbackobjects(callback_instances)
-        start_time = log_time_taken("cbi2co", start_time)
         store._add_callbacksymbols_to_callbackobjects(
             callback_symbols, callback_objects)
-        start_time = log_time_taken("cbs2co", start_time)
-
         store.nodes = nodes
-        end = time.time()
-
-        print("done", end - start)
+        a = store.nodes[100854426972048].callbacks[100854427234448][0].subscription_objects[0].callback_objects[0]
         return store
 
 

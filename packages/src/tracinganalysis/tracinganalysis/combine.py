@@ -39,9 +39,11 @@ if __name__ == "__main__":
     c_contexts = new_extraction("/home/ubuntu/workspace/packages/output/")
 
     #traces = '~/workspace/traces/new-small-trace/ust'
-    traces = '~/workspace/traces/enhanced_tracing/ust'
+    traces = '~/workspace/traces/session-20250919102136/ust' # actions test
+    #traces = '~/workspace/traces/enhanced_tracing/ust'
     #traces = '~/workspace/traces/session-20250913161446/ust'
     #traces = '~/workspace/traces/session-20250913163542/ust' # python
+    traces = "/home/ubuntu/workspace/traces/session-20250924192950" # talker listener for presentation
 
     store = TracingStore.extract(traces)
 

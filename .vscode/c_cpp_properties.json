@@ -3,7 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/packages/build/**",
+                "${workspaceFolder}/packages/install/**",
+                "${workspaceFolder}/build/**",
+                "${workspaceFolder}/install/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
@@ -11,7 +14,8 @@
             "cppStandard": "c++14",
             "intelliSenseMode": "linux-clang-x64",
             "compileCommands": [
-                "${workspaceFolder}/packages/build/compile_commands.json", "${workspaceFolder}/ros2_latency_analysis/compile_commands.json"
+                "${workspaceFolder}/packages/build/compile_commands.json",
+                "${workspaceFolder}/ros2_latency_analysis/compile_commands.json"
             ]
         }
     ],

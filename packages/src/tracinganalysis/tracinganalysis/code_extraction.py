@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 import json
 import os
+from subprocess import PIPE, Popen
 import sys
 from typing import Dict, List, Set
 
@@ -58,6 +59,40 @@ def extract(input_dir: str):
     pco.IN_DIR = input_dir
     pco.SRC_DIR = ""
     return pco.process_clang_output()
+
+#if __name__ == "__main__":
+#     clang_context = new_extraction("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/")
+#     print(clang_context)
+#     bp = Popen('bash -c "source /opt/ros/humble/setup.bash; ros2 trace"', shell=True, stdout=PIPE, stdin=PIPE, stderr=PIPE)
+#     a = bp.stdout.readlines()
+#     print("")
+from subprocess import Popen, PIPE
+
+def start_tracing():
+    #bp = Popen('bash -c "source /opt/ros/humble/setup.bash; ros2 trace"', shell=True, stdout=PIPE, stderr=PIPE, stdin=PIPE, text=True)
+    bp = Popen('ros2 trace"', shell=True, stdout=PIPE, stderr=PIPE, stdin=PIPE, text=True)
+
+    output_buffer = ""
+    while True:
+        output = bp.stdout.read(1)
+        if output == "" and bp.poll() is not None:
+            break
+        if output:
+            output_buffer += output
+            print(output, end='', flush=True)
+
+            if "press enter to start" in output_buffer:
+                # start tracing immediately
+                bp.stdin.write('\n')
+                bp.stdin.flush()
+                output_buffer = ""
+                break
+
+    stderr_output = bp.stderr.read()
+    if stderr_output:
+        print(stderr_output.strip())
+    return bp
+
 
 if __name__ == "__main__":
     clang_context = new_extraction("/home/ubuntu/workspace/packages/src/tracinganalysis/template_system/")

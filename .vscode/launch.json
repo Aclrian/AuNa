@@ -9,7 +9,12 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "variablePresentation": {
+                "all": "hide",
+                "protected": "inline",
+            },
+            "justMyCode": false,
         }
-    ]
+    ],
 }
