@@ -42,13 +42,22 @@ RUN apt-get update && apt-get upgrade -y --no-install-recommends \
     wget \
     sudo \
     ros-${ROS_DISTRO}-rmw-zenoh-cpp \
-    lttng-tools \
     liblttng-ust-dev \
     python3-babeltrace \
     python3-lttng \
     lttng-modules-dkms \
-    babeltrace2 \
-    && rm -rf /var/lib/apt/lists/* \
+    babeltrace2
+
+# For Kernel tracing:
+RUN apt install -y libtool make flex bison pkg-config libpopt-dev libxml2-dev\
+    && git clone https://github.com/lttng/lttng-tools.git \
+    && cd lttng-tools \
+    && git checkout v2.13.11 \
+    && bash -c "./bootstrap && ./configure --disable-man-pages" \
+    && make && make install \
+    && ldconfig && cd .. && groupadd -g 2000 tracing;
+
+RUN rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
 # Create non-root user for security

@@ -738,6 +738,45 @@ services:
       ]
     profiles: ["tracing"]
 
+  kernel-tracing:
+    # assure that:
+    # 1. lttng-sessiond is running as root on host system
+    # 2. lttng version between host and container match
+    # 3. lttng-modules-dkms is installed and system rebooted
+    <<: *package-base
+    image: kernel-tracing:latest
+    container_name: kernel-tracing
+    user: root
+    privileged: true
+    pid: host
+    ipc: host
+    cap_add:
+      - SYS_PTRACE
+      - SYS_ADMIN
+    volumes:
+      - /dev:/dev
+      - /lib/modules:/lib/modules
+      - /sys:/sys
+      - /var/run/lttng:/var/run/lttng
+      - /dev/shm:/dev/shm
+      - /var/traces:/var/traces
+    command:
+      [
+        "/bin/bash",
+        "-c",
+        "source /home/ubuntu/tracing/install/setup.bash && 
+        date +%Y%m%d-%H%M%S > /var/traces/trace_timestamp.txt &&
+        mkdir -p /var/traces/session-$(cat /var/traces/trace_timestamp.txt) &&
+        lttng create -o /var/traces/session-$(cat /var/traces/trace_timestamp.txt) &&
+        lttng enable-event -k sched_switch &&
+        lttng enable-event -a --userspace && 
+        lttng start && 
+        sleep infinity &
+        trap 'lttng stop && lttng destroy && chmod -R ugo+rwx /var/traces/ && echo \"Traces are in /var/traces/session-$(cat /var/traces/trace_timestamp.txt)\"' SIGTERM SIGINT; 
+        wait",
+      ]
+    profiles: [ "kernel-tracing" ]
+
   analysis:
     <<: *package-base
     volumes:
